@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>User Registration Form</h1>
+        <p>Pleae fill out the form below to creare your account</p>
+
+    </header>
+
+    <!--Main Content-->
+    <main>
+        <!--Rgistration form-->
+        <form action="#" method="post" enctype="multipart/form-data">
+            <!--Personal-Informaion-->
+            <fieldset>
+                <legend>Personal information</legend>
+                <label for="first-name">First name</label>
+                <br>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                <br>
+
+                <br>
+                <label for ="last-name">Last-Name</label>
+                <br>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter your Last name" required>
+                <br>
+                <br>
+                <label for ="email">Email address</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <br>
+                <br>
+                <label for ="phone">Phone Number</label>
+                <br>
+
+                <input type="tel" id="phone" name="phone" placeholder="+9212456780" required>
+
+                <br>
+                <br>
+                <label for="dob">Date of Birth</label>
+                <br>
+                <input type="date" id="dob" name="dob" required>
+            </fieldset>
+
+            <br>
+
+
+            <!--Account-Information-->
+            <fieldset>
+
+                <lengend>Account Information</lengend>
+                <label for="username">Username</label>
+                <br>
+                <input type="text" id="username" name="username" placeholder="choose a username" required>
+                <br>
+                <br>
+
+
+                <label for="password">Pasword</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="Enter password" required>
+                <br>
+                <br>
+
+
+                <label for="Confirm-password">Confirm password</label>
+                <br>
+                <br>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="confirm pssword" required>
+                <br>
+
+                <!--Gender-->
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    
+                    <label for="male">Male</label>
+                    <br>
+
+
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <br>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </fieldset>
+
+
+                <br>
+
+                <!--Country-->
+                <label for="country">Country</label>
+                <br>
+                <select id="country" name="country">
+                    <option value="">Select Country</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">United Kingdom</option>
+                
+                    
+                </select>
+                <br>
+                <br>
+                <!---Skills-->
+                <fieldset>
+                    <legend>Skills</legend>
+                    <input type="checkbox" id="html" name="skills" value="HTML">
+                    <label for ="HTML">HTML</label>
+                    <br>
+
+                    <input type="checkbox" id="html" name="skills" value="CSS">
+                    <label for ="HTML">CSS</label>
+                    <br>
+
+
+                    <input type="checkbox" id="html" name="skills" value="Jacescript">
+                    <label for ="HTML">Javascript</label>
+                    <br>
+
+
+                    <input type="checkbox" id="html" name="skills" value="React">
+                    <label for ="HTML">React</label>
+                     </fieldset>
+
+                    <!--File-Upload-->
+                    <label for="profile-picture">Profile-Picture</label>
+                    <br>
+
+                    <input type="file" id="profile-picture" name="profile picture">
+                    <br>
+                    
+
+
+                    <br>
+
+                    <label for="website">Portfolio Website</label>
+                    <br>
+                    <input type="url" id="website" name="website" placeholder="https://muqadas.com">
+                    <br>
+                    <br>
+                    <!-- ================= EXPERIENCE ================= -->
+
+            <label for="experience">Years of Experience</label>
+
+            <br>
+
+            <input
+                type="number"
+                id="experience"
+                name="experience"
+                min="0"
+                max="40">
+
+            <br><br>
+
+            <label for="satisfaction">
+                Satisfaction Level
+            </label>
+
+            <br>
+
+            <input
+                type="range"
+                id="satisfaction"
+                name="satisfaction"
+                min="1"
+                max="10">
+
+            <br><br>
+
+            <!--About-->
+                        <textarea
+                id="about"
+                name="about"
+                rows="5"
+                cols="40"
+                placeholder="Write something about yourself..."></textarea>
+
+            <br><br>
+
+            <!--terms-->
+
+            <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                required>
+
+            <label for="terms">
+                I agree to the Terms and Conditions
+            </label>
+
+            <br><br>
+
+            <!--button-->
+            
+            <button type="submit">
+                Register
+            </button>
+
+            <button type="reset">
+                Clear Form
+            </button>
+
+
+
+
+
+
+                 
+
+                 
+
+                 
+                 
+
+
+
+               
+           
+        </form>
+    </main>
+</body>
+</html>
