@@ -3,231 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Registration Form</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>User Registration Form</h1>
-        <p>Pleae fill out the form below to creare your account</p>
+    <div class="form-container">
+        <header>
+            <h1>Create Your Account</h1>
+            <p>Please fill out the form below to create your account</p>
+        </header>
 
-    </header>
-
-    <!--Main Content-->
-    <main>
-        <!--Rgistration form-->
-        <form action="#" method="post" enctype="multipart/form-data">
-            <!--Personal-Informaion-->
-            <fieldset>
-                <legend>Personal information</legend>
-                <label for="first-name">First name</label>
-                <br>
-                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
-                <br>
-
-                <br>
-                <label for ="last-name">Last-Name</label>
-                <br>
-                <input type="text" id="last-name" name="last-name" placeholder="Enter your Last name" required>
-                <br>
-                <br>
-                <label for ="email">Email address</label>
-                <br>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-                <br>
-                <br>
-                <label for ="phone">Phone Number</label>
-                <br>
-
-                <input type="tel" id="phone" name="phone" placeholder="+9212456780" required>
-
-                <br>
-                <br>
-                <label for="dob">Date of Birth</label>
-                <br>
-                <input type="date" id="dob" name="dob" required>
-            </fieldset>
-
-            <br>
-
-
-            <!--Account-Information-->
-            <fieldset>
-
-                <lengend>Account Information</lengend>
-                <label for="username">Username</label>
-                <br>
-                <input type="text" id="username" name="username" placeholder="choose a username" required>
-                <br>
-                <br>
-
-
-                <label for="password">Pasword</label>
-                <br>
-                <input type="password" id="password" name="password" placeholder="Enter password" required>
-                <br>
-                <br>
-
-
-                <label for="Confirm-password">Confirm password</label>
-                <br>
-                <br>
-                <input type="password" id="confirm-password" name="confirm-password" placeholder="confirm pssword" required>
-                <br>
-
-                <!--Gender-->
+        <!--Main Content-->
+        <main>
+            <form action="#" method="post" enctype="multipart/form-data">
+                
+                <!--Personal-Information-->
                 <fieldset>
-                    <legend>Gender</legend>
-                    <input type="radio" id="male" name="gender" value="Male">
+                    <legend>Personal Information</legend>
                     
-                    <label for="male">Male</label>
-                    <br>
-
-
-                    <input type="radio" id="female" name="gender" value="Female">
-                    <label for="female">Female</label>
-                    <br>
-
-                    <input type="radio" id="other" name="gender" value="other">
-                    <label for="other">Other</label>
+                    <div class="input-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+92 300 1234567" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
                 </fieldset>
 
-
-                <br>
-
-                <!--Country-->
-                <label for="country">Country</label>
-                <br>
-                <select id="country" name="country">
-                    <option value="">Select Country</option>
-                    <option value="Pakistan">Pakistan</option>
-                    <option value="India">India</option>
-                    <option value="China">China</option>
-                    <option value="USA">USA</option>
-                    <option value="UK">United Kingdom</option>
-                
-                    
-                </select>
-                <br>
-                <br>
-                <!---Skills-->
+                <!--Account-Information-->
                 <fieldset>
-                    <legend>Skills</legend>
-                    <input type="checkbox" id="html" name="skills" value="HTML">
-                    <label for ="HTML">HTML</label>
-                    <br>
+                    <legend>Account Information</legend>
+                    
+                    <div class="input-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" placeholder="Choose a username" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter password" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required>
+                    </div>
 
-                    <input type="checkbox" id="html" name="skills" value="CSS">
-                    <label for ="HTML">CSS</label>
-                    <br>
+                    <!--Gender-->
+                    <div class="radio-checkbox-group">
+                        <label class="group-label">Gender</label>
+                        <div class="options-list">
+                            <label><input type="radio" id="male" name="gender" value="Male" required> Male</label>
+                            <label><input type="radio" id="female" name="gender" value="Female"> Female</label>
+                            <label><input type="radio" id="other" name="gender" value="Other"> Other</label>
+                        </div>
+                    </div>
 
+                    <!--Country-->
+                    <div class="input-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country" required>
+                            <option value="">Select Country</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="India">India</option>
+                            <option value="China">China</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">United Kingdom</option>
+                        </select>
+                    </div>
 
-                    <input type="checkbox" id="html" name="skills" value="Jacescript">
-                    <label for ="HTML">Javascript</label>
-                    <br>
-
-
-                    <input type="checkbox" id="html" name="skills" value="React">
-                    <label for ="HTML">React</label>
-                     </fieldset>
+                    <!--Skills-->
+                    <div class="radio-checkbox-group">
+                        <label class="group-label">Skills</label>
+                        <div class="options-list">
+                            <label><input type="checkbox" id="skill-html" name="skills" value="HTML"> HTML</label>
+                            <label><input type="checkbox" id="skill-css" name="skills" value="CSS"> CSS</label>
+                            <label><input type="checkbox" id="skill-js" name="skills" value="JavaScript"> JavaScript</label>
+                            <label><input type="checkbox" id="skill-react" name="skills" value="React"> React</label>
+                        </div>
+                    </div>
 
                     <!--File-Upload-->
-                    <label for="profile-picture">Profile-Picture</label>
-                    <br>
+                    <div class="input-group">
+                        <label for="profile-picture">Profile Picture</label>
+                        <input type="file" id="profile-picture" name="profile-picture">
+                    </div>
 
-                    <input type="file" id="profile-picture" name="profile picture">
-                    <br>
-                    
+                    <div class="input-group">
+                        <label for="website">Portfolio Website</label>
+                        <input type="url" id="website" name="website" placeholder="https://yourportfolio.com">
+                    </div>
 
+                    <!--Experience-->
+                    <div class="input-group">
+                        <label for="experience">Years of Experience</label>
+                        <input type="number" id="experience" name="experience" min="0" max="40">
+                    </div>
 
-                    <br>
+                    <!--Satisfaction-->
+                    <div class="input-group">
+                        <label for="satisfaction">Satisfaction Level (1-10)</label>
+                        <input type="range" id="satisfaction" name="satisfaction" min="1" max="10">
+                    </div>
 
-                    <label for="website">Portfolio Website</label>
-                    <br>
-                    <input type="url" id="website" name="website" placeholder="https://muqadas.com">
-                    <br>
-                    <br>
-                    <!-- ================= EXPERIENCE ================= -->
+                    <!--About-->
+                    <div class="input-group">
+                        <label for="about">About Yourself</label>
+                        <textarea id="about" name="about" rows="4" placeholder="Write something about yourself..."></textarea>
+                    </div>
 
-            <label for="experience">Years of Experience</label>
+                    <!--Terms-->
+                    <div class="terms-accept">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the Terms and Conditions</label>
+                    </div>
+                </fieldset>
 
-            <br>
-
-            <input
-                type="number"
-                id="experience"
-                name="experience"
-                min="0"
-                max="40">
-
-            <br><br>
-
-            <label for="satisfaction">
-                Satisfaction Level
-            </label>
-
-            <br>
-
-            <input
-                type="range"
-                id="satisfaction"
-                name="satisfaction"
-                min="1"
-                max="10">
-
-            <br><br>
-
-            <!--About-->
-                        <textarea
-                id="about"
-                name="about"
-                rows="5"
-                cols="40"
-                placeholder="Write something about yourself..."></textarea>
-
-            <br><br>
-
-            <!--terms-->
-
-            <input
-                type="checkbox"
-                id="terms"
-                name="terms"
-                required>
-
-            <label for="terms">
-                I agree to the Terms and Conditions
-            </label>
-
-            <br><br>
-
-            <!--button-->
-            
-            <button type="submit">
-                Register
-            </button>
-
-            <button type="reset">
-                Clear Form
-            </button>
-
-
-
-
-
-
-                 
-
-                 
-
-                 
-                 
-
-
-
-               
-           
-        </form>
-    </main>
+                <!--Buttons-->
+                <div class="button-group">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                    <button type="reset" class="btn btn-secondary">Clear Form</button>
+                </div>
+            </form>
+        </main>
+    </div>
 </body>
 </html>
