@@ -3,113 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing-Table</title>
+    <title>Pricing Plans</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header-->
-    <header>
-        <h1>Pricing Plans</h1>
-        <p>Choose the plan that best fits your needs</p>
-    </header>
+    <div class="pricing-container">
+        <!--Header-->
+        <header>
+            <h1>Pricing Plans</h1>
+            <p>Choose the plan that best fits your needs and budget</p>
+        </header>
 
-    <main>
-        <table border="1">
+        <main>
+            <!-- Scrollable wrapper for mobile responsiveness -->
+            <div class="table-responsive">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th>Basic</th>
+                            <th class="recommended-col">Standard <span class="popular-badge">Popular</span></th>
+                            <th>Premium</th>
+                        </tr>
+                    </thead>
 
-        <thead>
-            
-                <tr>
-                    <th>Features</th>
-                    <th>Basic</th>
-                    <th>Standard</th>
-                    <th>Premium</th>
+                    <tbody>
+                        <tr class="price-row">
+                            <th>Price</th>
+                            <td>$10/mo</td>
+                            <td class="recommended-col highlight-price">$20/mo</td>
+                            <td>$40/mo</td>
+                        </tr>
 
-                </tr>
+                        <tr>
+                            <th>Storage</th>
+                            <td>10 GB</td>
+                            <td class="recommended-col">100 GB</td>
+                            <td>Unlimited</td>
+                        </tr>
 
-                
-            
-        </thead>
+                        <tr>
+                            <th>Users</th>
+                            <td>1 User</td>
+                            <td class="recommended-col">5 Users</td>
+                            <td>Unlimited</td>
+                        </tr>
 
-        <!--Body-->
-        <tbody>
-            <tr>
-                <th>Price </th>
-                <td>$10/month</td>
-                <td>$20/month</td>
-                <td>$40/month</td>
+                        <tr>
+                            <th>Email Support</th>
+                            <td><span class="yes-mark">✔</span></td>
+                            <td class="yes-mark recommended-col">✔</td>
+                            <td><span class="yes-mark">✔</span></td>
+                        </tr>
 
-            </tr>
+                        <tr>
+                            <th>Phone Support</th>
+                            <td><span class="no-mark">✘</span></td>
+                            <td class="yes-mark recommended-col">✔</td>
+                            <td><span class="yes-mark">✔</span></td>
+                        </tr>
 
-            <tr>
-                <th>Storage</th>
-                <td>10 GB</td>
-                <td>100 GB</td>
-                <td>Unlimited</td>
-            </tr>
+                        <tr>
+                            <th>Analytics</th>
+                            <td><span class="no-mark">✘</span></td>
+                            <td class="yes-mark recommended-col">✔</td>
+                            <td><span class="yes-mark">✔</span></td>
+                        </tr>
 
-            <tr>
-                <th>Users</th>
-                <td>1 User</td>
-                <td>5 Users</td>
-                <td>Unlimited</td>
+                        <tr>
+                            <th>Cloud Backup</th>
+                            <td><span class="no-mark">✘</span></td>
+                            <td class="yes-mark recommended-col">✔</td>
+                            <td><span class="yes-mark">✔</span></td>
+                        </tr>
 
-            </tr>
+                        <tr>
+                            <th>Custom Reports</th>
+                            <td><span class="no-mark">✘</span></td>
+                            <td class="no-mark recommended-col">✘</td>
+                            <td><span class="yes-mark">✔</span></td>
+                        </tr>
 
-            <tr>
-                <th>Email Support</th>
-                <td>✔</td>
-                 <td>✔</td>
-                  <td>✔</td>
+                        <tr class="action-row">
+                            <th>Select Plan</th>
+                            <td>
+                                <button type="button" class="btn">Choose Basic</button>
+                            </td>
+                            <td class="recommended-col">
+                                <button type="button" class="btn btn-recommended">Choose Standard</button>
+                            </td>
+                            <td>
+                                <button type="button" class="btn">Choose Premium</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> 
+        </main>
 
-            </tr>
-
-            <tr>
-                <th>Phone support</th>
-                <td>✘</td>
-                 <td>✔</td>
-                 <td>✔</td>
-                
-            </tr>
-
-            <tr>
-                <th>Analytics Dashboard</th>
-                <td>✘</td>
-                 <td>✔</td>
-                  <td>✔</td>
-
-            </tr>
-
-            <tr>
-                <th>Cloud Backup</th>
-                <td>✘</td>
-                 <td>✔</td>
-                  <td>✔</td>
-            </tr>
-            <tr>
-                <th>Custom Reports</th>
-                <td>✘</td>
-                 <td>✘</td>
-                  <td>✔</td>
-
-            </tr>
-
-            <tr>
-                <th>Select Plan</th>
-                <td>
-                    <button type="button">Choose basic</button>
-            
-                </td>
-                <td> <button type="button">Choose Standard</button></td>
-                <td><button type="button">Choose Premium</button></td>
-
-            </tr>
-
-           
-        </tbody>
-        </table> 
-    </main>
-     <footer>
-                <p>@2026 Pricing Table Demo</p>
-            </footer>
-    
+        <footer>
+            <p>© 2026 Pricing Table Demo</p>
+        </footer>
+    </div>
 </body>
 </html>

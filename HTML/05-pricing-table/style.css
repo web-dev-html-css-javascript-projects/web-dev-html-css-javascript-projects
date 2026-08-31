@@ -1,0 +1,141 @@
+/* --- Global Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    padding: 40px 10px;
+}
+
+/* --- Container --- */
+.pricing-container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Header --- */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #777777;
+}
+
+/* --- Responsive Table Container --- */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto; /* Enable scroll on mobile */
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+}
+
+/* --- Table Styling --- */
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    min-width: 600px; /* Prevents squishing */
+}
+
+/* --- Table Cells Padding & Borders --- */
+.pricing-table th, 
+.pricing-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* --- Table Header Styling --- */
+.pricing-table thead th {
+    background-color: #f8f9fa;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* --- Recommended Column Highlight --- */
+.recommended-col {
+    background-color: #f0f4ff; /* Light blue tint for highlight */
+}
+
+/* --- Popular Badge --- */
+.popular-badge {
+    background-color: #4f46e5;
+    color: #ffffff;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/* --- Price Row Bold --- */
+.price-row td {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #111111;
+}
+
+.highlight-price {
+    color: #4f46e5 !important;
+}
+
+/* --- Check & Cross Marks --- */
+.yes-mark {
+    color: #2ecc71; /* Green */
+    font-weight: bold;
+}
+
+.no-mark {
+    color: #e74c3c; /* Red */
+    font-weight: bold;
+}
+
+/* --- Buttons --- */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #555555;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #eeeeee;
+}
+
+.btn-recommended {
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: 1px solid #4f46e5;
+}
+
+.btn-recommended:hover {
+    background-color: #3c35b8;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.85rem;
+    color: #777777;
+}
