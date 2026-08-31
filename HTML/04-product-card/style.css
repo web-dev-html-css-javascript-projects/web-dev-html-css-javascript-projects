@@ -1,0 +1,255 @@
+/* --- Global Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f8fafc; /* Sleek slate grey background */
+    color: #1e293b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* --- Page Header & Footer --- */
+.page-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.page-header h1 {
+    font-size: 1.75rem;
+    color: #0f172a;
+    font-weight: 700;
+}
+
+.page-footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+/* --- Card Container Layout --- */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* --- Product Card --- */
+.product-card {
+    background-color: #ffffff;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    display: flex; /* Creates a side-by-side design on desktop */
+}
+
+/* --- Product Image Section --- */
+.product-image-sec {
+    flex: 1.1; /* Image takes slightly more space */
+    position: relative;
+    background-color: #f1f5f9;
+    min-height: 300px;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crops the image nicely inside the card */
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.sale-badge {
+    background-color: #ef4444; /* Eye-catching red */
+}
+
+/* --- Product Details Section --- */
+.product-details-sec {
+    flex: 1.2;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* --- Rating --- */
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.rating-text {
+    font-size: 0.85rem;
+    color: #64748b;
+    font-weight: 600;
+}
+
+/* --- Title & Description --- */
+.product-title {
+    font-size: 1.8rem;
+    color: #0f172a;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.product-description {
+    font-size: 0.95rem;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* --- Price Section --- */
+.price-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.discount-price {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.original-price {
+    font-size: 1.15rem;
+    color: #94a3b8;
+}
+
+.save-tag {
+    background-color: #dcfce7;
+    color: #15803d;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* --- Features Section --- */
+.features-section {
+    margin-bottom: 25px;
+}
+
+.features-section h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.features-section ul {
+    list-style-position: inside;
+    color: #475569;
+    font-size: 0.9rem;
+}
+
+.features-section ul li {
+    margin-bottom: 6px;
+}
+
+/* --- Action Buttons --- */
+.action-buttons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-cart {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    border: 1px solid #cbd5e1;
+}
+
+.btn-cart:hover {
+    background-color: #cbd5e1;
+}
+
+.btn-buy {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+
+.btn-buy:hover {
+    background-color: #2563eb;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* --- More Details Link --- */
+.more-details {
+    text-align: center;
+}
+
+.more-details a {
+    font-size: 0.9rem;
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.more-details a:hover {
+    text-decoration: underline;
+}
+
+/* --- Responsive Layout (Mobile screens) --- */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .product-card {
+        flex-direction: column; /* Stack image on top of details */
+        max-width: 420px;
+    }
+
+    .product-image-sec {
+        min-height: 250px;
+    }
+    
+    .product-details-sec {
+        padding: 25px;
+    }
+
+    .product-title {
+        font-size: 1.5rem;
+    }
+}

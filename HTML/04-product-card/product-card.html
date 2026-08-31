@@ -2,87 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireless Bluetooth Headphones</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header-->
-    <header>
+    <!-- Main page header (Optional wrapper) -->
+    <header class="page-header">
         <h1>Featured Product</h1>
     </header>
 
-    <main>
-        <!--Main content-->
-        <article>
-            <figure>
-                <img src="assets/headphones.jpg"
-                    alt="Wireless Bluetooth Headphones"
-                    width="300">
-                    <figcaption>
-                        Wireless Headphones
-                    </figcaption>
-                </figure>
-                <section>
-                    <h1>Wireless Blutooth Headphones</h1>
-                    <p>Enjoy crystal-clear sound with premium wireless headphones featuring bluetooth active noise cancelltion, and a long lastin battery.</p>
-                </section>
+    <main class="card-container">
+        <!-- Main Product Card -->
+        <article class="product-card">
+            <!-- Product Image Section -->
+            <div class="product-image-sec">
+                <!-- Using a high-quality placeholder image for demonstration; you can replace this with your assets/headphones.jpg later! -->
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80"
+                     alt="Wireless Bluetooth Headphones" 
+                     class="product-image">
+                <span class="badge sale-badge">SALE</span>
+            </div>
 
-                <section>
-                    <h3>
-                        Price
-                    </h3>
-                     <del>$129.99</del>
+            <!-- Product Details Section -->
+            <div class="product-details-sec">
+                <div class="rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span class="rating-text">(4.8/5)</span>
+                </div>
 
+                <h1 class="product-title">Wireless Bluetooth Headphones</h1>
+                
+                <p class="product-description">
+                    Enjoy crystal-clear sound with premium wireless headphones featuring active noise cancellation, Bluetooth 5.3, and a long-lasting battery life.
+                </p>
 
-                    <strong>$99.99</strong>
-                </section>  
+                <!-- Pricing -->
+                <div class="price-section">
+                    <span class="discount-price">$99.99</span>
+                    <span class="original-price"><del>$129.99</del></span>
+                    <span class="save-tag">Save 23%</span>
+                </div>
 
-                <section>
-                    <h1>
-                        Features
-                    </h1>
-
+                <!-- Features list -->
+                <div class="features-section">
+                    <h3>Key Features</h3>
                     <ul>
-                        <li>Bluthooth 5.3</li>
-                        <li> Noise Cancellation</li>
+                        <li>Bluetooth 5.3</li>
+                        <li>Active Noise Cancellation</li>
                         <li>20 Hours Battery Backup</li>
                         <li>Fast Charging</li>
                         <li>Built-in Microphone</li>
                     </ul>
+                </div>
 
-                
-                </section>
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                    <button type="button" class="btn btn-cart">Add to Cart</button>
+                    <button type="button" class="btn btn-buy">Buy Now</button>
+                </div>
 
-
-                <section>
-                    <h1>
-                        Customer Rating
-                    </h1>
-                    <p>⭐⭐⭐⭐⭐ (4.8/5)</p>
-
-                    <button type="button">Add to cart</button>
-
-                    <button type="button">Buy Now</button>
-                </section>
-
-
-                <section>
-                    <p>
-                        <a href="https://example.com" target="_blank">View Full Product Details
-
-                        </a>
-                    </p>
-                </section>
-
-
+                <div class="more-details">
+                    <a href="https://example.com" target="_blank">View Full Product Details →</a>
+                </div>
+            </div>
         </article>
-        
-
-        
     </main>
 
-    <footer>
-        <p>@2026 product store</p>
+    <footer class="page-footer">
+        <p>© 2026 Product Store</p>
     </footer>
 </body>
 </html>
