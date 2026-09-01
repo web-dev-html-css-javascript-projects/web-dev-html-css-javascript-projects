@@ -3,102 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descrition" content="A semantic HTML5 news article example.""
-    <title>News-Article</title>
+    <meta name="description" content="A semantic HTML5 news article example.">
+    <title>AI Transforming Education - Daily Tech News</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!--Header-->
-
-    <header>
-        <h1>
-            Daily Tech News
-        </h1>
-
-        <nav>
-            <a href="#Home">Home</a>
-            <a href="#Technology">Home</a>
-            <a href="#Business">Home</a>
-            <a href="#Science">Home</a>
-            <a href="#Contact">Home</a>
+    <!-- Newspaper Header -->
+    <header class="news-header">
+        <div class="header-top">
+            <span class="news-date">Monday, August 2, 2026</span>
+            <span class="edition-badge">TECH EDITION</span>
+        </div>
+        <h1>Daily Tech News</h1>
+        <nav class="news-nav">
+            <a href="#home">Home</a>
+            <a href="#technology" class="active">Technology</a>
+            <a href="#business">Business</a>
+            <a href="#science">Science</a>
+            <a href="#contact">Contact</a>
         </nav>
-
     </header>
 
-    <hr>
+    <!-- Main News Article Container -->
+    <div class="article-container">
+        <main>
+            <article class="main-article">
+                <!-- Headline & Metadata -->
+                <header class="article-header">
+                    <span class="category-tag">ARTIFICIAL INTELLIGENCE</span>
+                    <h2>Artificial Intelligence is Transforming Education</h2>
+                    <div class="byline">
+                        <p>By <strong>Muqadas Muhammad Akram</strong> | Published on <time datetime="2026-08-02">August 2, 2026</time></p>
+                    </div>
+                </header>
 
+                <!-- Featured Image -->
+                <figure class="article-figure">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" 
+                         alt="Artificial Intelligence in Education" 
+                         class="article-image">
+                    <figcaption>AI-powered learning platforms are improving education and classroom engagement.</figcaption>
+                </figure>
 
+                <!-- Article Body Sections -->
+                <section class="article-body">
+                    <h3>Introduction</h3>
+                    <p>Artificial Intelligence (AI) is changing the way students learn by providing personalized learning experiences tailored to each student's pace.</p>
+                    <p>Experts believe this technology will continue to improve education globally over the next decade.</p>
+                </section>
 
-    <!--main-->
-    <section>
+                <!-- Breaking Update Highlight -->
+                <section class="breaking-update">
+                    <h3>⚡ Breaking Update</h3>
+                    <p><mark>Several universities have started integrating AI tutors directly into their online learning systems this semester.</mark></p>
+                </section>
 
+                <!-- Revision Stat -->
+                <section class="article-body">
+                    <h3>Latest Revision</h3>
+                    <p>The previous estimate was <del>60%</del>. The latest research now estimates <ins>75%</ins> adoption across higher educational institutions.</p>
+                </section>
 
-    
+                <!-- Scientific Example Section -->
+                <section class="scientific-box">
+                    <h3>Scientific Context</h3>
+                    <p>Water chemical formula: <strong>H<sub>2</sub>O</strong></p>
+                    <p>Einstein's Famous Equation: <strong>E = mc<sup>2</sup></strong></p>
+                </section>
 
-    <article>
-        <h1>Artificial Intelligence is Transforming Education</h1>
-        <p>By <strong>Muqadas Muhammad Akram</strong></p>
+                <!-- Editor's Note -->
+                <section class="editors-note">
+                    <h4>Editor's Note</h4>
+                    <small>This article is intended for educational purposes and reflects findings up to the publication date.</small>
+                </section>
+            </article>
+        </main>
+    </div>
 
-        <p>published on <time datetime="Auguest 2,2026">August-2,2026</time></p>
-
-            <figure>
-                <img src="assets/ai-education.jpg alt="Artificial Intelligence in Education"
-                    width="500">
-
-                    <figcaption>  AI-powered learning platforms are improving education.</figcaption>
-            </figure>
-
-    </article>
-    
-    </section>
-
-    <section>
-        <h2>Introduction</h2>
-        <p>Artificial Intelligence (AI) is changing the way students learn by providing personalized learning experiences.</p>
-        <p>Experts believe this technology will continue to improve education over the next decade.</p>
-    </section>
-
-    <section>
-        <h2>Breaking Update</h2>
-        <p>
-            <mark>Several universities have started integrating AI tutors into their online learning systems.</mark>
-        </p>
-    </section>
-
-    <section>
-        <h2>Latest Revsion</h2>
-        <p>The previous estimate was <del>60%</del>.The latest research now estimates <ins>75%</ins>adoption by educational institutions.</p>
-    </section>
-
-    <section>
-
-        <h2>Scientif Example</h2>
-        <p>Water s reprensented as H<sub>2</sub>O</p>
-
-        <p>Einstein's Famous Equation: E=mc<sup>2</sup></p>
-
-    </section>
-
-    <section>
-        <h2>Editor's Note</h2>
-        <small>
-            This article is intended for educational purposes only..
-        </small>
-    </section>
-
-
-
-
-    
-
-    <!--Footer-->
-
-    <p>
-        @2026 Daily Tech News
-    </p>
-
-    <p>Contct: <small>
-        <a href="#news@example.com">news@exmaple.com</a>
-    </small></p>
+    <!-- Newspaper Footer -->
+    <footer class="news-footer">
+        <p>© 2026 Daily Tech News. All rights reserved.</p>
+        <p>Contact: <a href="mailto:news@example.com">news@example.com</a></p>
+    </footer>
 </body>
 </html>
