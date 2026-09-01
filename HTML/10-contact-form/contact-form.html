@@ -1,338 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <!-- Character Encoding -->
     <meta charset="UTF-8">
-
-    <!-- Responsive Design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO -->
     <meta name="description" content="Professional Contact Form built using HTML5.">
-
-    <title>Contact Form</title>
-
+    <title>Contact Us - Get in Touch</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <!-- ================= HEADER ================= -->
-
-    <header>
-
-        <h1>Contact Us</h1>
-
-        <p>
-            Fill out the form below and we'll get back to you soon.
-        </p>
-
-    </header>
-
-    <hr>
-
-    <!-- ================= MAIN ================= -->
-
-    <main>
-
-        <form action="#" method="post" autocomplete="on">
-
-            <!-- Personal Information -->
-
-            <fieldset>
-
-                <legend>Personal Information</legend>
-
-                <!-- Full Name -->
-
-                <label for="fullname">
-                    Full Name:
-                </label>
-
-                <br>
-
-                <input
-                    type="text"
-                    id="fullname"
-                    name="fullname"
-                    placeholder="Enter your full name"
-                    required
-                    minlength="3"
-                    maxlength="50">
-
-                <br><br>
-
-                <!-- Email -->
-
-                <label for="email">
-                    Email Address:
-                </label>
-
-                <br>
-
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="example@email.com"
-                    required>
-
-                <br><br>
-
-                <!-- Phone -->
-
-                <label for="phone">
-                    Phone Number:
-                </label>
-
-                <br>
-
-                <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    placeholder="+92-300-1234567"
-                    pattern="[0-9]{4}-[0-9]{7}">
-
-                <br><br>
-
-                <!-- Website -->
-
-                <label for="website">
-                    Website:
-                </label>
-
-                <br>
-
-                <input
-                    type="url"
-                    id="website"
-                    name="website"
-                    placeholder="https://example.com">
-
-                <br><br>
-
-                <!-- Date -->
-
-                <label for="date">
-                    Preferred Contact Date:
-                </label>
-
-                <br>
-
-                <input
-                    type="date"
-                    id="date"
-                    name="date">
-
-            </fieldset>
-
-            <br>
-
-            <!-- Gender -->
-
-            <fieldset>
-
-                <legend>Gender</legend>
-
-                <input
-                    type="radio"
-                    id="male"
-                    name="gender"
-                    value="Male">
-
-                <label for="male">Male</label>
-
-                <br>
-
-                <input
-                    type="radio"
-                    id="female"
-                    name="gender"
-                    value="Female">
-
-                <label for="female">Female</label>
-
-                <br>
-
-                <input
-                    type="radio"
-                    id="other"
-                    name="gender"
-                    value="Other">
-
-                <label for="other">Other</label>
-
-            </fieldset>
-
-            <br>
-
-            <!-- Subject -->
-
-            <fieldset>
-
-                <legend>Subject</legend>
-
-                <label for="subject">
-                    Choose a Subject:
-                </label>
-
-                <br>
-
-                <select id="subject" name="subject">
-
-                    <optgroup label="General">
-
-                        <option>General Inquiry</option>
-
-                        <option>Feedback</option>
-
-                    </optgroup>
-
-                    <optgroup label="Support">
-
-                        <option>Technical Support</option>
-
-                        <option>Bug Report</option>
-
-                    </optgroup>
-
-                </select>
-
-            </fieldset>
-
-            <br>
-
-            <!-- Interests -->
-
-            <fieldset>
-
-                <legend>Interests</legend>
-
-                <input
-                    type="checkbox"
-                    id="html"
-                    name="interest"
-                    value="HTML">
-
-                <label for="html">HTML</label>
-
-                <br>
-
-                <input
-                    type="checkbox"
-                    id="css"
-                    name="interest"
-                    value="CSS">
-
-                <label for="css">CSS</label>
-
-                <br>
-
-                <input
-                    type="checkbox"
-                    id="javascript"
-                    name="interest"
-                    value="JavaScript">
-
-                <label for="javascript">JavaScript</label>
-
-            </fieldset>
-
-            <br>
-
-            <!-- File Upload -->
-
-            <fieldset>
-
-                <legend>Attachment</legend>
-
-                <label for="file">
-                    Upload File:
-                </label>
-
-                <br>
-
-                <input
-                    type="file"
-                    id="file"
-                    name="file">
-
-            </fieldset>
-
-            <br>
-
-            <!-- Message -->
-
-            <fieldset>
-
-                <legend>Your Message</legend>
-
-                <label for="message">
-                    Message:
-                </label>
-
-                <br>
-
-                <textarea
-                    id="message"
-                    name="message"
-                    rows="6"
-                    cols="50"
-                    placeholder="Write your message here..."
-                    required
-                    maxlength="500"></textarea>
-
-            </fieldset>
-
-            <br>
-
-            <!-- Terms -->
-
-            <input
-                type="checkbox"
-                id="terms"
-                required>
-
-            <label for="terms">
-                I agree to the Terms & Conditions.
-            </label>
-
-            <br><br>
-
-            <!-- Buttons -->
-
-            <button type="submit">
-
-                Submit
-
-            </button>
-
-            <button type="reset">
-
-                Reset
-
-            </button>
-
-        </form>
-
-    </main>
-
-    <hr>
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <p>
-
-            © 2026 Contact Form Demo
-
-        </p>
-
-    </footer>
-
+    <div class="contact-container">
+        <!-- Header -->
+        <header>
+            <h1>Contact Us</h1>
+            <p>Fill out the form below and our team will get back to you soon.</p>
+        </header>
+
+        <!-- Main Form -->
+        <main>
+            <form action="#" method="post" autocomplete="on">
+                
+                <!-- Personal Information -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <div class="input-group">
+                        <label for="fullname">Full Name *</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required minlength="3" maxlength="50">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+92-300-1234567">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="website">Website</label>
+                        <input type="url" id="website" name="website" placeholder="https://yourwebsite.com">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="date">Preferred Contact Date</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                </fieldset>
+
+                <!-- Gender -->
+                <div class="option-group">
+                    <label class="group-title">Gender</label>
+                    <div class="options">
+                        <label><input type="radio" id="male" name="gender" value="Male"> Male</label>
+                        <label><input type="radio" id="female" name="gender" value="Female"> Female</label>
+                        <label><input type="radio" id="other" name="gender" value="Other"> Other</label>
+                    </div>
+                </div>
+
+                <!-- Subject -->
+                <div class="input-group">
+                    <label for="subject">Choose a Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a topic</option>
+                        <optgroup label="General">
+                            <option value="inquiry">General Inquiry</option>
+                            <option value="feedback">Feedback</option>
+                        </optgroup>
+                        <optgroup label="Support">
+                            <option value="tech-support">Technical Support</option>
+                            <option value="bug-report">Bug Report</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <!-- Interests -->
+                <div class="option-group">
+                    <label class="group-title">Interests</label>
+                    <div class="options">
+                        <label><input type="checkbox" id="html" name="interest" value="HTML"> HTML</label>
+                        <label><input type="checkbox" id="css" name="interest" value="CSS"> CSS</label>
+                        <label><input type="checkbox" id="javascript" name="interest" value="JavaScript"> JavaScript</label>
+                    </div>
+                </div>
+
+                <!-- File Upload -->
+                <div class="input-group">
+                    <label for="file">Attachment (Optional)</label>
+                    <input type="file" id="file" name="file">
+                </div>
+
+                <!-- Message -->
+                <div class="input-group">
+                    <label for="message">Your Message *</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required maxlength="500"></textarea>
+                </div>
+
+                <!-- Terms -->
+                <div class="terms-group">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to the Terms & Conditions.</label>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="button-group">
+                    <button type="submit" class="btn btn-submit">Submit Message</button>
+                    <button type="reset" class="btn btn-reset">Reset Form</button>
+                </div>
+            </form>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 Contact Form Demo. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
-
 </html>
