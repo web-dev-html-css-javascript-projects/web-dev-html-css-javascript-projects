@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBite - Modern E-Commerce Store</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>⚡ TechBite</h2>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search gadgets, audio, laptops...">
+            </div>
+
+            <!-- Cart Trigger Button -->
+            <button id="cartBtn" class="cart-trigger">
+                🛒 Cart (<span id="cartCount">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Hero Banner -->
+        <section class="hero-banner">
+            <div class="hero-content">
+                <h1>Upgrade Your Tech Gear</h1>
+                <p>Discover top-rated electronic gadgets with fast delivery and great discounts.</p>
+            </div>
+        </section>
+
+        <!-- Category Filter Buttons -->
+        <section class="filter-section">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="Audio">🎧 Audio</button>
+                <button class="filter-btn" data-category="Wearables">⌚ Wearables</button>
+                <button class="filter-btn" data-category="Laptops">💻 Computers</button>
+                <button class="filter-btn" data-category="Gaming">🎮 Gaming</button>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products-section">
+            <div id="productsGrid" class="products-grid">
+                <!-- Products will be injected dynamically via JavaScript -->
+            </div>
+            <!-- Empty Search Message -->
+            <div id="noResults" class="no-results hidden">
+                <p>🔍 No products found matching your search.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Slide-out Shopping Cart Drawer -->
+    <div id="cartDrawer" class="cart-drawer">
+        <div class="cart-header">
+            <h3>Your Shopping Cart</h3>
+            <button id="closeCartBtn" class="close-btn">&times;</button>
+        </div>
+
+        <div id="cartItemsContainer" class="cart-items">
+            <!-- Cart items will be injected dynamically via JavaScript -->
+        </div>
+
+        <div class="cart-footer">
+            <div class="summary-row">
+                <span>Subtotal:</span>
+                <span id="cartSubtotal">$0.00</span>
+            </div>
+            <div class="summary-row">
+                <span>Tax (10%):</span>
+                <span id="cartTax">$0.00</span>
+            </div>
+            <div class="summary-row total-row">
+                <span>Total:</span>
+                <span id="cartTotal">$0.00</span>
+            </div>
+            <button id="checkoutBtn" class="btn checkout-btn">Proceed to Checkout</button>
+            <button id="clearCartBtn" class="btn clear-btn">Clear Cart</button>
+        </div>
+    </div>
+
+    <!-- Backdrop Overlay for Cart Drawer -->
+    <div id="overlay" class="overlay"></div>
+
+    <!-- Checkout Modal Popup -->
+    <div id="checkoutModal" class="modal">
+        <div class="modal-content">
+            <button id="closeModalBtn" class="close-modal">&times;</button>
+            <h2>🎉 Order Confirmed!</h2>
+            <p>Thank you for shopping with TechBite. Your order has been placed successfully.</p>
+            <div id="orderSummary" class="order-summary"></div>
+            <button id="modalDoneBtn" class="btn checkout-btn">Done</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 TechBite E-Commerce. Built with pure HTML5, CSS3, & Modern Vanilla JavaScript by Muqadas Akram.</p>
+    </footer>
+
+    <!-- JavaScript Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
