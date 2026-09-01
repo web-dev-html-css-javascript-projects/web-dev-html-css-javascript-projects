@@ -23,37 +23,37 @@ Before writing any code, I set clear rules for myself for each project:
 
 Here is a breakdown of what is inside this repository:
 
-### 1. Developer Resume (`HTML/01-Resume/`)
+### 1. Developer Resume (`HTML-CSS-Web-Projects/01-Resume/`)
 A structured, clean single-page resume layout showcasing contact details, a skill tag list, an education table, and experience articles.
 
-### 2. Login Form Card (`HTML/02-login-form/`)
+### 2. Login Form Card (`HTML-CSS-Web-Projects/02-login-form/`)
 A centered, responsive authentication card featuring styled input fields, focus glow states, a "Remember Me" checkbox, and action buttons.
 
-### 3. User Registration Form (`HTML/03-registration-form/`)
+### 3. User Registration Form (`HTML-CSS-Web-Projects/03-registration-form/`)
 A two-column side-by-side registration page built using CSS Grid. It handles personal info, account credentials, radio buttons for gender, country dropdowns, skill checklists, range sliders, and file uploads.
 
-### 4. E-Commerce Product Card (`HTML/04-product-card/`)
+### 4. E-Commerce Product Card (`HTML-CSS-Web-Projects/04-product-card/`)
 A product showcase card featuring an image section, sale badge, star rating, discounted price tag, key feature bullet points, and "Add to Cart" / "Buy Now" CTA buttons.
 
-### 5. Pricing Plans Matrix (`HTML/05-pricing-table/`)
+### 5. Pricing Plans Matrix (`HTML-CSS-Web-Projects/05-pricing-table/`)
 A SaaS-style pricing comparison table with a highlighted "Popular" plan tier, clean check/cross indicators (`✔` / `✘`), and a scrollable container for small screens.
 
-### 6. Interactive FAQ Accordion (`HTML/06-faq-page/`)
+### 6. Interactive FAQ Accordion (`HTML-CSS-Web-Projects/06-faq-page/`)
 An FAQ page leveraging native HTML5 `<details>` and `<summary>` elements to create an expandable accordion with custom open-state styles without requiring JavaScript.
 
-### 7. Restaurant Menu (`HTML/07-restaurant-menu/`)
+### 7. Restaurant Menu (`HTML-CSS-Web-Projects/07-restaurant-menu/`)
 A food menu card with a category navigation bar (Pizza, Burgers, Drinks, Desserts), price badges, detailed item descriptions, and restaurant contact info.
 
-### 8. Tech Blog Post (`HTML/08-blog-page/`)
+### 8. Tech Blog Post (`HTML-CSS-Web-Projects/08-blog-page/`)
 An editorial blog layout featuring a main article with custom blockquotes, inline `<code>` snippets, a header image, and a responsive sidebar for related topics.
 
-### 9. News Article Page (`HTML/09-news-article/`)
+### 9. News Article Page (`HTML-CSS-Web-Projects/09-news-article/`)
 A newspaper-style layout featuring date banners, category tags, a breaking news highlight box using `<mark>`, revision stats with `<ins>` and `<del>`, and scientific formatting (`<sub>`, `<sup>`).
 
-### 10. Comprehensive Contact Form (`HTML/10-contact-form/`)
+### 10. Comprehensive Contact Form (`HTML-CSS-Web-Projects/10-contact-form/`)
 A full-featured contact form with clean input groups, subject selector with `<optgroup>`, interest checkboxes, file attachment, message textarea, and validation states.
 
-### 11. Personal Portfolio Website (`HTML/11-personal-portfolio/`)
+### 11. Personal Portfolio Website (`HTML-CSS-Web-Projects/11-personal-portfolio/`)
 A personal developer portfolio with a top navigation bar, an introduction hero section with my profile picture, a technical skills table, an education timeline, and direct contact buttons.
 
 ---
