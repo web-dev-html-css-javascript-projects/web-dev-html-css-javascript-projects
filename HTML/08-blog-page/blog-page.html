@@ -3,112 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" conent="A sample blog page built using semantic HTML5."
-
-
-    <title>Blog-Page</title>
+    <meta name="description" content="A sample blog page built using semantic HTML5.">
+    <title>Why Semantic HTML Matters - My Tech Blog</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!--Header-->
-    <header>
-        <h1>My Tech Blog</h1>
-        <p>Sharing knowledge about web develpement and programming.</p>
-
-
-        <!--Navigation-->
-        <nav>
+    <!-- Site Header & Navigation -->
+    <header class="site-header">
+        <div class="header-content">
+            <h1>My Tech Blog</h1>
+            <p>Sharing knowledge about web development and programming</p>
+        </div>
+        <nav class="site-nav">
             <a href="#home">Home</a>
-            <a href="#Blogs">Blogs</a>
-            <a href="#About">About</a>
-            <a href="#Contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </nav>
-        
     </header>
 
-    <hr>
+    <!-- Main Content Layout (Article + Sidebar) -->
+    <div class="container">
+        <main class="blog-layout">
+            <!-- Main Blog Article -->
+            <article class="blog-post">
+                <header class="post-header">
+                    <h2>Why Semantic HTML Matters</h2>
+                    <p class="post-meta">Published on <time datetime="2026-07-31">July 31, 2026</time> by Muqadas Akram</p>
+                </header>
 
+                <figure class="post-figure">
+                    <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80" 
+                         alt="Code editor showing HTML" 
+                         class="post-image">
+                    <figcaption>Semantic HTML improves accessibility and SEO for modern web applications.</figcaption>
+                </figure>
 
-    <!--Main-->
+                <section class="post-content">
+                    <p>
+                        Semantic HTML introduces tags that clearly describe their meaning to both the browser and the developer. Key examples include:
+                        <code>&lt;header&gt;</code>,
+                        <code>&lt;article&gt;</code>,
+                        <code>&lt;section&gt;</code>, and
+                        <code>&lt;footer&gt;</code>.
+                    </p>
 
-    <article>
-        <header>
-            <h1>Why Semantic HTML Matters</h1>
-            <p>
-                <time datetime="July-31-2026">
-                    July-31-2026
-                </time>
-            </p>
+                    <p>
+                        These elements make websites easier to understand for developers, browsers, search engine web crawlers, and screen readers.
+                    </p>
 
-           
-        </header>
+                    <!-- Quote Section -->
+                    <blockquote class="post-quote">
+                        "First solve the problem. Then write the code."
+                        <cite>— John Johnson</cite>
+                    </blockquote>
+                </section>
+            </article>
 
-        <figure>
-            <img src="assets/semantic-html.jpg" alt="Illustration representing Semantic HTML"
-                    width="500">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>Related Topics</h3>
+                    <ul class="topic-list">
+                        <li><a href="#">HTML5 Best Practices</a></li>
+                        <li><a href="#">CSS3 Flexbox & Grid</a></li>
+                        <li><a href="#">JavaScript Fundamentals</a></li>
+                        <li><a href="#">Web Accessibility (a11y)</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </main>
+    </div>
 
-            <figcaption>Semantic HTML improves accessibility and seo</figcaption>
-        </figure>
-
-        <!--Blog-content-->
-        <section>
-
-       
-        <p>
-            <code>&lt;header&gt;</code>,
-                    <code>&lt;article&gt;</code>,
-                    <code>&lt;section&gt;</code>, and
-                    <code>&lt;footer&gt;</code>.
-
-        </p>
-
-        <p>
-            These elements make websites easier to understand for developers, browsers, search engines, and assistive technologies.
-
-
-        </p>
-        </section>
-        <!--Quote-->
-        <section>
-            <blockquote>
-            "First solve the problem. Then write the code."
-            </blockquote>
-
-            <cite>
-                — John Johnson
-            </cite>
-
-        </section>
-    </article>
-
-    <hr>
-    <sidebar>
-        <aside>
-            <h3>Related Topics</h3>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Accessibility</li>
-                <li>SEO</li>
-
-            </ul>
-        </aside>
-    </sidebar>
-
-    <hr>
-
-    <!--Footer-->
-    <footer>
-
-  
-
-    <address>
-        Wriiten by Muqadas Akram<br> Email:<a href="mailo:exmaple@gmail.com">exmaple@gmail.com</a>
-    </address>
-
-    <p>@2026 My Tech Blog</p>
-      </footer>
-    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <address>
+            Written by <strong>Muqadas Akram</strong> | Email: <a href="mailto:muqadasakram.13@gmail.com">muqadasakram.13@gmail.com</a>
+        </address>
+        <p class="copyright">© 2026 My Tech Blog. All rights reserved.</p>
+    </footer>
 </body>
 </html>
