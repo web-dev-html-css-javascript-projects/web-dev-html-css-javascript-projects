@@ -3,127 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Muqadas Akram - Personal Portfolio</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header-->
-
-    <header>
-     <h1>Muqadas Muhammad Akram</h1>
-
-     <p>Computer Science Student | Aspiring Full Stack Developer</p>
-
-     <nav>
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Skills">Skills</a>
-        <a href="Education">Education</a>
-
-        <a href="#Projects">Projects</a>
-        <a href="#Resume">Resume</a>
-        <a href="Gallery">Gallery</a>
-        <a href="#FAQ">FAQS</a>
-        <a href="#Conact">Contact</a>
-     </nav>
+    <!-- Site Header & Navigation -->
+    <header class="portfolio-header">
+        <div class="header-container">
+            <div class="brand">
+                <h1>Muqadas Akram</h1>
+                <p>Computer Science Student | Aspiring Full Stack Developer</p>
+            </div>
+            <nav class="nav-links">
+                <a href="#welcome">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
+    <!-- Main Container -->
+    <div class="portfolio-container">
+        <main>
+            <!-- Hero / Welcome Section -->
+            <section id="welcome" class="card hero-section">
+                <figure class="profile-figure">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80" 
+                         alt="Profile Picture" 
+                         class="profile-img">
+                </figure>
+                <div class="hero-text">
+                    <h2>Hello, I'm Muqadas 👋</h2>
+                    <p>Welcome to my personal portfolio website. I am passionate about creating modern web applications, exploring Artificial Intelligence, and building clean user experiences.</p>
+                </div>
+            </section>
 
-    <hr>
+            <!-- About Section -->
+            <section id="about" class="card">
+                <h2>About Me</h2>
+                <p>I am a Computer Science student at Sukkur IBA University with a strong interest in Full Stack Web Development, Artificial Intelligence, and Problem Solving.</p>
+                <p>I enjoy learning new technologies and building real-world applications that solve practical everyday problems.</p>
+            </section>
 
+            <!-- Technical Skills Section -->
+            <section id="skills" class="card">
+                <h2>Technical Skills</h2>
+                <table class="skills-table">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Technologies</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cat-name">Frontend</td>
+                            <td><span class="skill-badge">HTML5</span> <span class="skill-badge">CSS3</span> <span class="skill-badge">JavaScript</span> <span class="skill-badge">React.js</span></td>
+                        </tr>
+                        <tr>
+                            <td class="cat-name">Backend</td>
+                            <td><span class="skill-badge">Node.js</span> <span class="skill-badge">Express.js</span> <span class="skill-badge">Flask</span></td>
+                        </tr>
+                        <tr>
+                            <td class="cat-name">Database</td>
+                            <td><span class="skill-badge">PostgreSQL</span> <span class="skill-badge">SQLite</span></td>
+                        </tr>
+                        <tr>
+                            <td class="cat-name">Programming</td>
+                            <td><span class="skill-badge">Python</span> <span class="skill-badge">JavaScript</span> <span class="skill-badge">C++</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
 
+            <!-- Education Section -->
+            <section id="education" class="card">
+                <h2>Education</h2>
+                <article class="education-item">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p class="institute">Sukkur IBA University</p>
+                    <p class="duration">2022 - Present</p>
+                </article>
+            </section>
 
+            <!-- Contact Section -->
+            <section id="contact" class="card contact-section">
+                <h2>Get In Touch</h2>
+                <p>Feel free to reach out for collaborations, projects, or discussions!</p>
+                <div class="contact-links">
+                    <a href="mailto:muqadasakram.13@gmail.com" class="btn btn-contact">📧 Email Me</a>
+                    <a href="https://github.com/Muqadas1234" target="_blank" class="btn btn-github">GitHub Profile</a>
+                </div>
+            </section>
+        </main>
+    </div>
 
-    
-    <!--Main-->
-    <section>
-            <h2>
-        WelCome
-    </h2>
-    <figure>
-        <img src="img.png" alt="profile picture">
-
-        <figcaption>My profile Picture</figcaption>
-
-        <p>Welcome to my personal portfolio website. This website showcases my education, technical skills, projects, and achievements.</p>
-    </figure>
-
-    </section>
-
-    <hr>
-    <section>
-        <h2>About Me</h2>
-
-        <p>I am a Computer Science student with a strong interest in Full Stack Web Development, Artificial Intelligence, Machine Learning, and Problem Solving.</p>
-
-        <p>I enjoy learning new technologies and building real-world applications that solve practical problems</p>
-    </section>
-
-
-    <hr>
-    <section>
-        <h2>Technical Skills</h2>
-        <table border="1">
-            <thead>
-                <tr>
-
-                
-                <th>
-                    Category
-                </th>
-
-                <th>Technologies</th>
-
-                </tr>
-
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Frontend</td>
-                             <td>HTML, CSS,Javascript,React</td>
-
-                    
-                    </tr>
-
-                    <tr>
-                        <td>Backend</td>
-                        <td>Node.js Express.js, Flask</td>
-                    </tr>
-
-                    <tr>
-                        <td>Database</td>
-                        <td>PostreSQL,SQLITE</td>
-                    </tr>
-
-                    <tr>
-                        <td>Progrmming</td>
-                        <td>Python, Javascript</td>
-                    </tr>
-               
-                </tbody>
-
-            
-        </table>
-    </section>
-
-    <hr>
-
-    <section id="Education">
-        <h2>Education</h2>
-        <article>
-            <h3>Bacholar of science in computer Science</h3>
-
-            <p>
-                Sukkur IBA University
-            </p>
-
-            <p>2022-Present</p>
-
-            </article>
-        </article>
-    </section>
-
-    <hr>
-
+    <!-- Footer -->
+    <footer class="portfolio-footer">
+        <p>© 2026 Muqadas Muhammad Akram. Built with Semantic HTML & CSS.</p>
+    </footer>
 </body>
 </html>
