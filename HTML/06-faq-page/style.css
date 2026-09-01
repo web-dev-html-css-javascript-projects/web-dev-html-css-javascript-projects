@@ -1,0 +1,97 @@
+/* --- Global Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; /* Soft grey background */
+    color: #333333;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* --- Container --- */
+.faq-container {
+    max-width: 650px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Header --- */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #111111;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #666666;
+    font-size: 0.95rem;
+}
+
+/* --- Accordion Details & Summary --- */
+details {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    overflow: hidden; /* Ensures contents don't bleed out */
+    transition: all 0.2s ease;
+}
+
+/* Hover style on the whole details block */
+details:hover {
+    border-color: #3b82f6; /* Blue border on hover */
+    background-color: #f0f7ff; /* Very light blue background */
+}
+
+/* Summary / Question Styling */
+summary {
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    user-select: none;
+    color: #1e293b;
+    outline: none;
+}
+
+/* Styles applied when details accordion is open */
+details[open] {
+    border-color: #3b82f6;
+    background-color: #ffffff;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #e5e7eb;
+    color: #3b82f6; /* Question turns blue when open */
+}
+
+/* Answer Paragraph Styling */
+details p {
+    padding: 15px 20px;
+    line-height: 1.6;
+    color: #4b5563;
+    font-size: 0.95rem;
+    background-color: #ffffff;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #888888;
+}
