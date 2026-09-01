@@ -1,0 +1,140 @@
+/* --- Global Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf5ef; /* Warm light creamy background */
+    color: #333333;
+    padding: 40px 15px;
+}
+
+/* --- Menu Container Card --- */
+.menu-container {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Header --- */
+header {
+    text-align: center;
+    border-bottom: 2px solid #f0e6d6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #c0392b; /* Warm Red / Restaurant theme */
+    margin-bottom: 6px;
+}
+
+header p {
+    color: #777777;
+    font-size: 0.95rem;
+}
+
+/* --- Category Navigation Bar --- */
+.category-nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #fdfaf6;
+    border-radius: 8px;
+}
+
+.category-nav a {
+    text-decoration: none;
+    color: #555555;
+    font-weight: bold;
+    font-size: 0.95rem;
+    padding: 8px 14px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: 1px solid #e0d5c1;
+    transition: all 0.2s ease;
+}
+
+.category-nav a:hover {
+    background-color: #c0392b;
+    color: #ffffff;
+    border-color: #c0392b;
+}
+
+/* --- Menu Sections --- */
+.menu-section {
+    margin-bottom: 30px;
+}
+
+.menu-section h2 {
+    font-size: 1.4rem;
+    color: #c0392b;
+    border-bottom: 2px solid #f0e6d6;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+/* --- Menu Items --- */
+.menu-item {
+    padding: 12px 0;
+    border-bottom: 1px dashed #e8decb;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-name {
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+.item-price {
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #c0392b;
+    background-color: #fbeee6;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.item-desc {
+    font-size: 0.9rem;
+    color: #666666;
+    margin-top: 5px;
+}
+
+/* --- Footer --- */
+.restaurant-footer {
+    text-align: center;
+    border-top: 2px solid #f0e6d6;
+    padding-top: 25px;
+    margin-top: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    color: #444444;
+}
+
+.copyright {
+    font-size: 0.85rem;
+    color: #888888;
+}

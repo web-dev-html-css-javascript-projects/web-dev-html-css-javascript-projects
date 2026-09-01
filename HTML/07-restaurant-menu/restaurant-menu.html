@@ -3,105 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant</title>
+    <title>Delicious Bites - Restaurant Menu</title>
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header-->
-    <header>
-        <h1>Delicious Bites Restaurant</h1>
-    <p>Fresh Food | Great Taste | Affordable Prices</p>
+    <div class="menu-container">
+        <!--Header-->
+        <header>
+            <h1>Delicious Bites Restaurant</h1>
+            <p>Fresh Food | Great Taste | Affordable Prices</p>
+        </header>
 
+        <!--Navigation-->
+        <nav class="category-nav">
+            <a href="#pizza">🍕 Pizza</a>
+            <a href="#burgers">🍔 Burgers</a>
+            <a href="#drinks">🥤 Drinks</a>
+            <a href="#desserts">🍰 Desserts</a>
+        </nav>
 
-    </header>
+        <!--Main Menu Content-->
+        <main>
+            <!-- Pizza Section -->
+            <section id="pizza" class="menu-section">
+                <h2>🍕 Pizza</h2>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Margherita Pizza</span>
+                        <span class="item-price">$10</span>
+                    </div>
+                    <p class="item-desc">Classic pizza with mozzarella cheese, tomato sauce, and fresh basil.</p>
+                </div>
 
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Pepperoni Pizza</span>
+                        <span class="item-price">$12</span>
+                    </div>
+                    <p class="item-desc">Loaded with pepperoni slices and extra mozzarella cheese.</p>
+                </div>
+            </section>
 
-    <!--Navigation-->
-    <nav>
-        <a href="#Pizza">Pizza</a>
-        <a href="#Burgers">Burgers</a>
-        <a href="#Drinks">Drinks</a>
-        <a href="#Desserts">Deserts</a>
-    </nav>
-    <!--Main-->
-    <section id="pizza">
-        <h2>🍕 Pizza</h2>
-        <hr>
-        <dl>
-            <dt><strong>Margherita-</strong>$10</dt>
-            <dd>Classic pizza with mozzarella cheese, tomato sauce, and fresh basil.</dd>
-            <dt><strong>Pepperoni Pizza</strong>$!2</dt>
-            <dd>Loaded with pepperoni slices and extra cheese.</dd>
-        </dl>
-     </section>
+            <!-- Burgers Section -->
+            <section id="burgers" class="menu-section">
+                <h2>🍔 Burgers</h2>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Crispy Chicken Burger</span>
+                        <span class="item-price">$8</span>
+                    </div>
+                    <p class="item-desc">Crispy chicken fillet with fresh lettuce and creamy mayonnaise.</p>
+                </div>
 
-        <hr>
-        <section id="Burgers">
-            <h2>🍔 Burgers</h2>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Grilled Beef Burger</span>
+                        <span class="item-price">$9</span>
+                    </div>
+                    <p class="item-desc">Grilled beef patty with cheddar cheese and fresh vegetables.</p>
+                </div>
+            </section>
 
-       
-        <dl>
-            <dt><strong>Chicken Burger-</strong>$8</dt>
-            <dd>Crispy chicken fillet with lettuce and mayonnaise..</dd>
-            <dt><strong>Beef Burger - </strong>$9</dt>
-            <dd>Grilled beef patty with cheese and fresh vegetables.</dd>
+            <!-- Drinks Section -->
+            <section id="drinks" class="menu-section">
+                <h2>🥤 Drinks</h2>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Cola</span>
+                        <span class="item-price">$2</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Fresh Orange Juice</span>
+                        <span class="item-price">$3</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Mineral Water</span>
+                        <span class="item-price">$1</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Hot Coffee</span>
+                        <span class="item-price">$4</span>
+                    </div>
+                </div>
+            </section>
 
-        
+            <!-- Desserts Section -->
+            <section id="desserts" class="menu-section">
+                <h2>🍰 Desserts</h2>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Chocolate Brownie</span>
+                        <span class="item-price">$5</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Vanilla Ice Cream</span>
+                        <span class="item-price">$4</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">New York Cheesecake</span>
+                        <span class="item-price">$6</span>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-        </section>
-        <hr>
-
-
-          <section id="Drinks">
-            <h2>🥤 Drinks</h2>
-            <ol>
-                <li>Cola - $2</li>
-                <li>Fresh Orange Juice - $3</li>
-                <li>Mineral Water - $1</li>
-                <li>Coffee - $4</li>
-            </ol>
-        
-
-        </section>
-
-        <hr>
-
-
-
-         <section id="Desserts">
-             <h2>🍰 Desserts</h2>
-            <ul>
-                <li>Chocolate Brownie</li>
-                <li>Vanilla Ice Cream</li>
-                <li>Cheesecake</li>
-               
-            </ul>
-
-
-            <hr>
-
-            <p>
-               📍 Sukkur, Pakistan 
-            </p>
-
-            <p>
-                📞 +92 300 1234567
-            </p>
-
-            <footer>
-                   © 2026 Delicious Bites Restaurant
-            </footer>
-        
-
-        </section>
-
-
-
-
-
-
-    
-
-    
-    
+        <!--Contact & Footer-->
+        <footer class="restaurant-footer">
+            <div class="contact-info">
+                <p>📍 Sukkur, Pakistan</p>
+                <p>📞 +92 300 1234567</p>
+            </div>
+            <p class="copyright">© 2026 Delicious Bites Restaurant</p>
+        </footer>
+    </div>
 </body>
 </html>
