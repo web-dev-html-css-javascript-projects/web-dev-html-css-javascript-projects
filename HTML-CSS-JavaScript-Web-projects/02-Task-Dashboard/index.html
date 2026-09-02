@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Smart Productivity Dashboard</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Header -->
+    <header class="app-header">
+        <div class="header-container">
+            <div class="brand">
+                <h1>⚡ TaskFlow</h1>
+                <p>Manage your daily goals and productivity</p>
+            </div>
+
+            <!-- Controls: Search & Theme Toggle -->
+            <div class="header-controls">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search tasks...">
+                </div>
+                <button id="themeToggleBtn" class="theme-btn" title="Toggle Theme">
+                    🌙 <span id="themeText">Dark</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Dashboard Container -->
+    <div class="dashboard-container">
+        <!-- Analytics & Progress Stats -->
+        <section class="stats-section">
+            <div class="stat-card">
+                <h3>Total Tasks</h3>
+                <span id="totalCount" class="stat-number">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Pending</h3>
+                <span id="pendingCount" class="stat-number pending-color">0</span>
+            </div>
+            <div class="stat-card">
+                <h3>Completed</h3>
+                <span id="completedCount" class="stat-number completed-color">0</span>
+            </div>
+            <div class="stat-card progress-card">
+                <div class="progress-info">
+                    <h3>Completion Rate</h3>
+                    <span id="progressPercentage">0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div id="progressBarFill" class="progress-bar-fill"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Layout: Add Task Form (Left) & Task List (Right) -->
+        <main class="dashboard-main">
+            <!-- Left: Add New Task Form Card -->
+            <section class="form-card">
+                <h2 id="formTitle">➕ Add New Task</h2>
+                <form id="taskForm">
+                    <input type="hidden" id="editTaskId">
+                    
+                    <div class="input-group">
+                        <label for="taskTitle">Task Title *</label>
+                        <input type="text" id="taskTitle" placeholder="e.g. Prepare System Design notes" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="taskDesc">Description (Optional)</label>
+                        <textarea id="taskDesc" rows="3" placeholder="Add additional details or steps..."></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="taskPriority">Priority</label>
+                            <select id="taskPriority">
+                                <option value="High">🔴 High Priority</option>
+                                <option value="Medium" selected>🟡 Medium Priority</option>
+                                <option value="Low">🟢 Low Priority</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="taskCategory">Category</label>
+                            <select id="taskCategory">
+                                <option value="Coding">💻 Coding</option>
+                                <option value="Work">💼 Work</option>
+                                <option value="Study">📚 Study</option>
+                                <option value="Personal">👤 Personal</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="taskDueDate">Due Date</label>
+                        <input type="date" id="taskDueDate">
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="submit" id="saveTaskBtn" class="btn btn-primary">Save Task</button>
+                        <button type="button" id="cancelEditBtn" class="btn btn-secondary hidden">Cancel</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Right: Tasks Display & Filtering -->
+            <section class="tasks-section">
+                <!-- Filters & Controls Bar -->
+                <div class="filter-bar">
+                    <div class="status-filters">
+                        <button class="filter-pill active" data-filter="all">All</button>
+                        <button class="filter-pill" data-filter="pending">Pending</button>
+                        <button class="filter-pill" data-filter="completed">Completed</button>
+                    </div>
+
+                    <div class="action-controls">
+                        <select id="priorityFilter" class="select-filter">
+                            <option value="all">All Priorities</option>
+                            <option value="High">High</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Low">Low</option>
+                        </select>
+                        <button id="clearCompletedBtn" class="btn-clear-completed">Clear Done</button>
+                    </div>
+                </div>
+
+                <!-- Task Items Container -->
+                <div id="taskList" class="task-list">
+                    <!-- Tasks will be rendered here dynamically via JavaScript -->
+                </div>
+
+                <!-- Empty State Message -->
+                <div id="emptyState" class="empty-state hidden">
+                    <p>🎉 No tasks found! You're all caught up or no items match your filter.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <p>© 2026 TaskFlow Productivity App. Built with pure HTML5, CSS3, & Modern JavaScript by Muqadas Akram.</p>
+    </footer>
+
+    <!-- App JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
