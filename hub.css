@@ -373,6 +373,47 @@ body {
     display: none !important;
 }
 
+/* --- Coming Soon Card --- */
+.coming-soon-card {
+    background-color: var(--bg-card);
+    border: 1px dashed var(--border-hover);
+    border-radius: 12px;
+    padding: 60px 30px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.coming-soon-icon {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+}
+
+.coming-soon-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 10px;
+}
+
+.coming-soon-card p {
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.status-badge {
+    display: inline-block;
+    background-color: #fef3c7;
+    color: #92400e;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid #fde68a;
+}
+
 /* --- Footer --- */
 .hub-footer {
     background-color: #ffffff;
