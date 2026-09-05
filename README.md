@@ -4,7 +4,7 @@ Hi, I'm **Muqadas Muhammad Akram** — a Computer Science graduate from Sukkur I
 
 My ultimate goal is to design and build scalable, intelligent **Full-Stack AI Products**. Although I already had a solid understanding of web technologies during my undergraduate studies, I intentionally chose to revisit, recall, and rebuild every topic hands-on after graduating — because **practical engineering depth and genuine skills matter the most**.
 
-This repository documents that solid foundation: **13 practical web projects** built from the ground up using **Semantic HTML5**, **Modern CSS3 (Flexbox & Grid)**, and **Modern Vanilla JavaScript (ES6)** before advancing into modern frameworks like React, backend architecture, and AI product integration.
+This repository documents that solid foundation: **13 practical web projects** starting with core web development and full-stack technologies — from **Semantic HTML5**, **Modern CSS3 (Flexbox & Grid)**, and **Modern Vanilla JavaScript (ES6)** to modern React applications — before advancing into scalable full-stack AI products.
 
 Every project is organized in its own self-contained folder with source code and documentation.
 
