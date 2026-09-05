@@ -1,85 +1,58 @@
-# Frontend Interview Preparation: HTML & CSS Projects
+# 🚀 Web Development Projects: HTML, CSS & JavaScript
 
 Hi, I'm **Muqadas Muhammad Akram** — a Computer Science student at Sukkur IBA University. 👋
 
-When preparing for frontend and full-stack technical interviews, I noticed that many people jump straight into heavy frameworks like React without truly mastering the fundamentals. I decided to take a step back and build a solid foundation in pure **HTML5** and **CSS3** by creating practical, real-world components from scratch.
+When preparing for frontend and full-stack technical interviews, I noticed that many developers jump straight into heavy frameworks like React without truly mastering core web fundamentals. I decided to build a solid, production-grade foundation by creating **13 hands-on web projects** from scratch using **Semantic HTML5**, **Modern CSS3 (Flexbox & Grid)**, and **Modern Vanilla JavaScript (ES6)**.
 
-This repository is a collection of **11 mini-projects** I built to test and solidify my understanding of semantic structure, responsive layouts (Flexbox & Grid), accessibility, and clean code practices.
-
----
-
-## 📌 My Learning Focus
-
-Before writing any code, I set clear rules for myself for each project:
-- **Semantic Structure First:** Avoid `<div>` soup. Use `<header>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<nav>`, and `<footer>` where they actually belong.
-- **Accessible Forms:** Connect `<label for="...">` with `<input id="...">`, group related fields using `<fieldset>` and `<legend>`, and handle input types properly.
-- **Pure CSS Layouts:** Practice both **Flexbox** (for 1D components like navbars and cards) and **CSS Grid** (for 2D multi-column layouts like registration forms).
-- **Responsive by Default:** Ensure each project works cleanly on mobile, tablet, and desktop screens using media queries.
-- **Clean Git Habits:** Work on separate feature branches for every task and merge them into `develop`.
+Every project in this repository is self-contained in its own folder with its own code, assets, and detailed documentation (`README.md`).
 
 ---
 
-## 🛠️ The 11 Projects I Built
+## 📂 Projects Showcase & Directory
 
-Here is a breakdown of what is inside this repository:
-
-### 1. Developer Resume (`HTML-CSS-Web-Projects/01-Resume/`)
-A structured, clean single-page resume layout showcasing contact details, a skill tag list, an education table, and experience articles.
-
-### 2. Login Form Card (`HTML-CSS-Web-Projects/02-login-form/`)
-A centered, responsive authentication card featuring styled input fields, focus glow states, a "Remember Me" checkbox, and action buttons.
-
-### 3. User Registration Form (`HTML-CSS-Web-Projects/03-registration-form/`)
-A two-column side-by-side registration page built using CSS Grid. It handles personal info, account credentials, radio buttons for gender, country dropdowns, skill checklists, range sliders, and file uploads.
-
-### 4. E-Commerce Product Card (`HTML-CSS-Web-Projects/04-product-card/`)
-A product showcase card featuring an image section, sale badge, star rating, discounted price tag, key feature bullet points, and "Add to Cart" / "Buy Now" CTA buttons.
-
-### 5. Pricing Plans Matrix (`HTML-CSS-Web-Projects/05-pricing-table/`)
-A SaaS-style pricing comparison table with a highlighted "Popular" plan tier, clean check/cross indicators (`✔` / `✘`), and a scrollable container for small screens.
-
-### 6. Interactive FAQ Accordion (`HTML-CSS-Web-Projects/06-faq-page/`)
-An FAQ page leveraging native HTML5 `<details>` and `<summary>` elements to create an expandable accordion with custom open-state styles without requiring JavaScript.
-
-### 7. Restaurant Menu (`HTML-CSS-Web-Projects/07-restaurant-menu/`)
-A food menu card with a category navigation bar (Pizza, Burgers, Drinks, Desserts), price badges, detailed item descriptions, and restaurant contact info.
-
-### 8. Tech Blog Post (`HTML-CSS-Web-Projects/08-blog-page/`)
-An editorial blog layout featuring a main article with custom blockquotes, inline `<code>` snippets, a header image, and a responsive sidebar for related topics.
-
-### 9. News Article Page (`HTML-CSS-Web-Projects/09-news-article/`)
-A newspaper-style layout featuring date banners, category tags, a breaking news highlight box using `<mark>`, revision stats with `<ins>` and `<del>`, and scientific formatting (`<sub>`, `<sup>`).
-
-### 10. Comprehensive Contact Form (`HTML-CSS-Web-Projects/10-contact-form/`)
-A full-featured contact form with clean input groups, subject selector with `<optgroup>`, interest checkboxes, file attachment, message textarea, and validation states.
-
-### 11. Personal Portfolio Website (`HTML-CSS-Web-Projects/11-personal-portfolio/`)
-A personal developer portfolio with a top navigation bar, an introduction hero section with my profile picture, a technical skills table, an education timeline, and direct contact buttons.
+| # | Project Name | Tech Stack | Description & Highlights | Folder Link |
+|:---|:---|:---|:---|:---|
+| **01** | **Developer Resume** | `HTML5`, `CSS3` | Structured single-page resume with contact links, skill tags, an education table, and experience timeline. | [`./01-resume/`](./01-resume/) |
+| **02** | **Modern Login Form** | `HTML5`, `CSS3` | Centered glassmorphic login card with custom focus glow states, "Remember Me" checkbox, and action buttons. | [`./02-login-form/`](./02-login-form/) |
+| **03** | **User Registration Form** | `HTML5`, `CSS3 (Grid)` | Comprehensive 2-column side-by-side registration layout with fieldsets, file upload, range slider, and custom controls. | [`./03-registration-form/`](./03-registration-form/) |
+| **04** | **E-Commerce Product Card** | `HTML5`, `CSS3` | Product showcase card with sale badges, star rating, discount price tags, key features list, and CTA buttons. | [`./04-product-card/`](./04-product-card/) |
+| **05** | **Pricing Plans Matrix** | `HTML5`, `CSS3` | SaaS-style feature comparison table with highlighted "Popular" tier, check/cross indicators (`✔`/`✘`), and responsive scroll. | [`./05-pricing-table/`](./05-pricing-table/) |
+| **06** | **Interactive FAQ Accordion** | `HTML5`, `CSS3` | Native accordion FAQ page using HTML5 `<details>` and `<summary>` elements with smooth hover and open-state styles. | [`./06-faq-page/`](./06-faq-page/) |
+| **07** | **Restaurant Menu** | `HTML5`, `CSS3` | Food menu card with sticky category navigation (Pizza, Burgers, Drinks, Desserts), price badges, and contact details. | [`./07-restaurant-menu/`](./07-restaurant-menu/) |
+| **08** | **Tech Blog Post** | `HTML5`, `CSS3` | Editorial blog layout featuring a main article with custom blockquotes, inline `<code>` snippets, and a responsive sidebar. | [`./08-blog-page/`](./08-blog-page/) |
+| **09** | **Breaking News Article** | `HTML5`, `CSS3` | Newspaper-style editorial page with date banners, category tags, `<mark>` highlights, and scientific formatting (`<sub>`, `<sup>`). | [`./09-news-article/`](./09-news-article/) |
+| **10** | **Comprehensive Contact Form** | `HTML5`, `CSS3` | Full-featured contact form with structured input groups, subject dropdown with `<optgroup>`, file attachment, and validation. | [`./10-contact-form/`](./10-contact-form/) |
+| **11** | **Personal Portfolio Website** | `HTML5`, `CSS3` | Developer portfolio with top navigation, hero introduction with profile picture, technical skills table, and contact CTA. | [`./11-personal-portfolio/`](./11-personal-portfolio/) |
+| **12** | **TechBite E-Commerce Store** | `HTML5`, `CSS3`, `JS (ES6)` | Full interactive store with dynamic product rendering, live search, category filtering, slide-out cart drawer, and `localStorage`. | [`./12-ecommerce-store/`](./12-ecommerce-store/) |
+| **13** | **TaskFlow Productivity Dashboard** | `HTML5`, `CSS3`, `JS (ES6)` | Complete task manager with full CRUD, Dark/Light mode theme switch, real-time progress calculations, priority tags, and `localStorage`. | [`./13-task-dashboard/`](./13-task-dashboard/) |
 
 ---
 
-## 💡 Key Takeaways
+## 🛠️ Concepts & Engineering Skills Mastered
 
-1. **Semantic HTML makes code readable:** Writing proper tags isn't just about syntax — it makes code accessible to screen readers and improves SEO.
-2. **Mastering Flexbox and Grid eliminates layout headaches:** Understanding when to use Flexbox (1D alignment) vs Grid (2D positioning) made building responsive pages intuitive.
-3. **Consistency matters:** Keeping naming conventions, Git branches, and folder structures organized makes code easy to maintain and review.
+### 🏷️ 1. Semantic HTML5 & Web Accessibility
+- Structured documents using meaningful semantic elements (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`, `<figure>`, `<details>`, `<summary>`).
+- Built accessible forms with proper `<label for="...">` associations, input validation constraints, and grouped controls using `<fieldset>` and `<legend>`.
 
----
+### 🎨 2. Modern CSS3 Layouts & UI Design
+- **Flexbox & CSS Grid:** Created 1D and 2D layouts (side-by-side forms, product matrices, responsive dashboards).
+- **Responsive Web Design:** Fluid media queries (`@media (max-width: 768px)`) ensuring smooth viewing on mobile, tablet, and desktop.
+- **Theme Variables & Transitions:** Custom CSS properties for instant Dark Mode / Light Mode switching and smooth micro-interactions.
 
-## 🚀 Next Steps
-
-Now that I have a solid grip on HTML & CSS layouts, my next milestone is:
-- Adding **Vanilla JavaScript** (DOM manipulation, event listeners, form validation, and `localStorage`).
-- Building **2 full-scale interactive web apps** (an E-Commerce Store with a live cart, and a Task/Productivity Dashboard).
-
----
-
-## 📬 Connect with Me
-
-- **Author:** Muqadas Muhammad Akram
-- **University:** Sukkur IBA University
-- **GitHub:** [@Muqadas1234](https://github.com/Muqadas1234)
-- **Email:** [muqadasakram.13@gmail.com](mailto:muqadasakram.13@gmail.com)
+### ⚡ 3. Modern Vanilla JavaScript (ES6+)
+- **DOM Manipulation & Events:** Dynamic rendering, real-time input search filtering, modal popups, and slide-out drawers.
+- **State Management & LocalStorage:** Client-side data persistence for shopping carts and task lists across browser refreshes.
+- **Array Methods:** Declarative data operations using `map`, `filter`, `reduce`, `find`, and `unshift`.
 
 ---
-*Feel free to star this repository or reach out if you're also preparing for frontend interviews!*
+
+## 👤 Author
+
+**Muqadas Muhammad Akram**
+* 🎓 Computer Science Student @ **Sukkur IBA University**
+* 💼 Aspiring Full-Stack Developer & AI Engineer
+* 🔗 GitHub: [@Muqadas1234](https://github.com/Muqadas1234)
+* 📧 Email: [muqadasakram.13@gmail.com](mailto:muqadasakram.13@gmail.com)
+
+---
+*⭐ If you find this repository helpful, feel free to star it and connect with me!*
