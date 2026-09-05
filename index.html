@@ -3,290 +3,321 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Development Projects — Muqadas Akram</title>
-    <!-- Simple Clean Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Muqadas Akram - Web Development Projects</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="hub.css">
 </head>
 <body>
-
-    <!-- Simple Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="brand">⚡ Muqadas Akram</a>
-            <div class="nav-links">
-                <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects" target="_blank" class="nav-link">GitHub Repository ↗</a>
+    <!-- Top Header -->
+    <header class="hub-header">
+        <div class="header-container">
+            <div class="brand">
+                <span class="status-dot"></span>
+                <div>
+                    <h1>Muqadas Muhammad Akram</h1>
+                    <p class="subtitle">Computer Science Student @ Sukkur IBA University · Frontend Projects</p>
+                </div>
+            </div>
+            <div class="header-links">
+                <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects" target="_blank" class="btn btn-github">GitHub Repo ↗</a>
+                <a href="mailto:muqadasakram.13@gmail.com" class="btn btn-contact">Email ✉</a>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- Main Container -->
-    <main class="container">
-        
-        <!-- Header Section -->
-        <header class="page-header">
-            <h1>Web Development Projects</h1>
-            <p>A collection of 13 beginner-to-advanced frontend projects built with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. Click <em>"Open Demo"</em> to view any project live.</p>
-        </header>
-
-        <!-- Search & Filter Controls -->
-        <section class="controls">
-            <div class="filter-group">
-                <button class="filter-btn active" data-filter="all">All Projects (13)</button>
-                <button class="filter-btn" data-filter="js">JavaScript Apps (2)</button>
-                <button class="filter-btn" data-filter="forms">Forms (3)</button>
-                <button class="filter-btn" data-filter="ui">UI Components (8)</button>
+    <!-- Main Content Container -->
+    <main class="hub-container">
+        <!-- Controls Bar -->
+        <section class="controls-section">
+            <div class="category-heading">
+                <span class="active-badge">Web Dev: HTML, CSS & JavaScript Projects</span>
+                <span class="count-label">13 Projects</span>
             </div>
-
-            <div class="search-group">
-                <input type="text" id="searchInput" placeholder="Search by name or tech...">
+            <div class="search-box">
+                <input type="text" id="projectSearch" placeholder="Filter projects by title or keywords...">
             </div>
         </section>
 
         <!-- Projects Grid -->
         <section id="projectsGrid" class="projects-grid">
-
+            
             <!-- 12. TechBite E-Commerce Store -->
-            <div class="card" data-category="js" data-keywords="ecommerce store techbite cart shop javascript">
-                <div class="card-badge">JavaScript App</div>
-                <h2 class="card-title">12. E-Commerce Store</h2>
-                <p class="card-desc">Interactive online store with dynamic product catalog, real-time search, category filters, and slide-out cart with local storage.</p>
+            <article class="project-card" data-title="12 ecommerce store techbite shopping cart javascript">
+                <div class="card-top">
+                    <span class="project-num">Project 12</span>
+                    <span class="pill pill-featured">Featured App</span>
+                </div>
+                <h3>TechBite E-Commerce Store</h3>
+                <p>Interactive web store featuring dynamic product catalog rendering, live search, category filter, slide-out cart drawer, and localStorage persistence.</p>
                 <div class="card-tags">
                     <span>HTML5</span>
                     <span>CSS3</span>
-                    <span>JavaScript</span>
+                    <span>Vanilla JS</span>
                     <span>LocalStorage</span>
                 </div>
-                <div class="card-links">
-                    <a href="./12-ecommerce-store/index.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/12-ecommerce-store" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./12-ecommerce-store/index.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/12-ecommerce-store" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
-            <!-- 13. TaskFlow Productivity Dashboard -->
-            <div class="card" data-category="js" data-keywords="taskflow task dashboard todo app productivity javascript">
-                <div class="card-badge">JavaScript App</div>
-                <h2 class="card-title">13. Task & Todo Dashboard</h2>
-                <p class="card-desc">Productivity task manager with add/edit/delete tasks, priority filters, progress tracker, and Dark/Light Mode switch.</p>
+            <!-- 13. TaskFlow Dashboard -->
+            <article class="project-card" data-title="13 taskflow task dashboard todo app productivity javascript">
+                <div class="card-top">
+                    <span class="project-num">Project 13</span>
+                    <span class="pill pill-featured">Featured App</span>
+                </div>
+                <h3>TaskFlow Productivity Dashboard</h3>
+                <p>Task manager with full CRUD (Create, Edit, Delete), priority tags, live progress percentage bar, and light/dark theme switcher with localStorage.</p>
                 <div class="card-tags">
                     <span>HTML5</span>
                     <span>CSS3</span>
-                    <span>JavaScript</span>
+                    <span>Vanilla JS</span>
                     <span>Dark Mode</span>
                 </div>
-                <div class="card-links">
-                    <a href="./13-task-dashboard/index.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/13-task-dashboard" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./13-task-dashboard/index.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/13-task-dashboard" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
             <!-- 01. Resume -->
-            <div class="card" data-category="ui" data-keywords="resume cv developer profile html css">
-                <div class="card-badge">HTML & CSS</div>
-                <h2 class="card-title">01. Developer Resume</h2>
-                <p class="card-desc">Clean single-page resume layout with contact details, technical skills tags, education table, and experience timeline.</p>
+            <article class="project-card" data-title="01 developer resume cv profile">
+                <div class="card-top">
+                    <span class="project-num">Project 01</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>Developer Resume Page</h3>
+                <p>Clean single-page resume layout showcasing contact details, skill tags list, structured education table, and experience history.</p>
                 <div class="card-tags">
-                    <span>HTML5</span>
-                    <span>CSS Flexbox</span>
+                    <span>Semantic HTML5</span>
                     <span>Table Layout</span>
+                    <span>Card UI</span>
                 </div>
-                <div class="card-links">
-                    <a href="./01-resume/resume.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/01-resume" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./01-resume/resume.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/01-resume" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
             <!-- 02. Login Form -->
-            <div class="card" data-category="forms" data-keywords="login form authentication card signin">
-                <div class="card-badge">Form</div>
-                <h2 class="card-title">02. Modern Login Form</h2>
-                <p class="card-desc">Centered user login card with styled input fields, focus states, a "Remember Me" checkbox, and action buttons.</p>
+            <article class="project-card" data-title="02 login form authentication card">
+                <div class="card-top">
+                    <span class="project-num">Project 02</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>Modern Login Form Card</h3>
+                <p>Centered login authentication card featuring styled input fields, focus glow states, a "Remember Me" checkbox, and action buttons.</p>
                 <div class="card-tags">
-                    <span>HTML Forms</span>
-                    <span>CSS Focus States</span>
+                    <span>Form Controls</span>
+                    <span>Focus States</span>
+                    <span>Flexbox Centering</span>
                 </div>
-                <div class="card-links">
-                    <a href="./02-login-form/login.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/02-login-form" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./02-login-form/login.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/02-login-form" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
             <!-- 03. Registration Form -->
-            <div class="card" data-category="forms" data-keywords="registration form signup grid 2 column validation">
-                <div class="card-badge">Form</div>
-                <h2 class="card-title">03. User Registration Form</h2>
-                <p class="card-desc">2-column side-by-side registration layout built with CSS Grid, fieldsets, file upload, range slider, and validation.</p>
+            <article class="project-card" data-title="03 user registration form signup 2 column grid">
+                <div class="card-top">
+                    <span class="project-num">Project 03</span>
+                    <span class="pill">HTML &amp; CSS Grid</span>
+                </div>
+                <h3>User Registration Form</h3>
+                <p>Two-column side-by-side registration layout built with CSS Grid, fieldsets, file upload, range slider, and custom form controls.</p>
                 <div class="card-tags">
                     <span>CSS Grid</span>
-                    <span>Fieldsets</span>
-                    <span>Inputs</span>
+                    <span>Fieldset &amp; Legend</span>
+                    <span>HTML5 Validation</span>
                 </div>
-                <div class="card-links">
-                    <a href="./03-registration-form/registration.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/03-registration-form" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./03-registration-form/registration.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/03-registration-form" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
             <!-- 04. Product Card -->
-            <div class="card" data-category="ui" data-keywords="product card ecommerce shop headphones sale">
-                <div class="card-badge">HTML & CSS</div>
-                <h2 class="card-title">04. Product Showcase Card</h2>
-                <p class="card-desc">E-commerce product card with sale discount tags, star ratings, feature bullet points, and hover-animated buttons.</p>
+            <article class="project-card" data-title="04 ecommerce product card headphones">
+                <div class="card-top">
+                    <span class="project-num">Project 04</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>E-Commerce Product Card</h3>
+                <p>Product showcase component featuring discount badges, star ratings, price savings tags, feature bullet points, and CTA buttons.</p>
                 <div class="card-tags">
-                    <span>Flexbox</span>
-                    <span>Product Card</span>
+                    <span>Split Card Layout</span>
+                    <span>Discount Tag</span>
+                    <span>Button Transitions</span>
                 </div>
-                <div class="card-links">
-                    <a href="./04-product-card/product-card.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/04-product-card" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./04-product-card/product-card.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/04-product-card" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
             <!-- 05. Pricing Table -->
-            <div class="card" data-category="ui" data-keywords="pricing table subscription plans matrix saas">
-                <div class="card-badge">HTML & CSS</div>
-                <h2 class="card-title">05. Pricing Matrix Table</h2>
-                <p class="card-desc">SaaS-style subscription pricing comparison table with a highlighted popular plan and horizontal scroll for mobile.</p>
+            <article class="project-card" data-title="05 pricing table subscription plans matrix">
+                <div class="card-top">
+                    <span class="project-num">Project 05</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>SaaS Pricing Matrix Table</h3>
+                <p>Feature comparison table with highlighted popular plan column, check/cross feature indicators, and responsive horizontal scroll.</p>
                 <div class="card-tags">
-                    <span>HTML Tables</span>
+                    <span>Table Matrix</span>
+                    <span>Column Highlighting</span>
                     <span>Responsive Scroll</span>
                 </div>
-                <div class="card-links">
-                    <a href="./05-pricing-table/pricing-table.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/05-pricing-table" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./05-pricing-table/pricing-table.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/05-pricing-table" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
             <!-- 06. FAQ Accordion -->
-            <div class="card" data-category="ui" data-keywords="faq accordion collapsible details summary questions">
-                <div class="card-badge">HTML & CSS</div>
-                <h2 class="card-title">06. Interactive FAQ Accordion</h2>
-                <p class="card-desc">Expandable questions and answers built using native HTML5 &lt;details&gt; and &lt;summary&gt; tags with zero JavaScript.</p>
+            <article class="project-card" data-title="06 faq accordion collapsible details summary">
+                <div class="card-top">
+                    <span class="project-num">Project 06</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>Interactive FAQ Accordion</h3>
+                <p>Expandable FAQ page built using native HTML5 &lt;details&gt; and &lt;summary&gt; tags with custom open-state styling and zero JS dependencies.</p>
                 <div class="card-tags">
-                    <span>HTML5 &lt;details&gt;</span>
-                    <span>Pure CSS</span>
+                    <span>&lt;details&gt; &amp; &lt;summary&gt;</span>
+                    <span>Native Accordion</span>
+                    <span>Open State CSS</span>
                 </div>
-                <div class="card-links">
-                    <a href="./06-faq-page/faq.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/06-faq-page" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./06-faq-page/faq.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/06-faq-page" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
             <!-- 07. Restaurant Menu -->
-            <div class="card" data-category="ui" data-keywords="restaurant menu food dishes pizza burger">
-                <div class="card-badge">HTML & CSS</div>
-                <h2 class="card-title">07. Restaurant Menu Card</h2>
-                <p class="card-desc">Food menu card featuring category navigation (Pizza, Burgers, Drinks, Desserts), price tags, and contact footer.</p>
+            <article class="project-card" data-title="07 restaurant menu food menu card">
+                <div class="card-top">
+                    <span class="project-num">Project 07</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>Restaurant Menu Card</h3>
+                <p>Food menu layout with clean category navigation (Pizza, Burgers, Drinks, Desserts), price badges, and contact details.</p>
                 <div class="card-tags">
-                    <span>Anchor Navigation</span>
-                    <span>Card Layout</span>
+                    <span>Category Navigation</span>
+                    <span>Price Pills</span>
+                    <span>Food Menu UI</span>
                 </div>
-                <div class="card-links">
-                    <a href="./07-restaurant-menu/restaurant-menu.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/07-restaurant-menu" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./07-restaurant-menu/restaurant-menu.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/07-restaurant-menu" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
-            <!-- 08. Tech Blog Post -->
-            <div class="card" data-category="ui" data-keywords="blog post article sidebar quote code editorial">
-                <div class="card-badge">HTML & CSS</div>
-                <h2 class="card-title">08. Tech Blog Post</h2>
-                <p class="card-desc">Editorial developer blog layout with a responsive 2-column sidebar, blockquotes, code snippets, and author bio.</p>
+            <!-- 08. Blog Page -->
+            <article class="project-card" data-title="08 tech blog post article sidebar">
+                <div class="card-top">
+                    <span class="project-num">Project 08</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>Tech Blog Post Layout</h3>
+                <p>Editorial developer blog layout with a responsive 2-column sidebar, featured header image, custom blockquotes, and inline code tags.</p>
                 <div class="card-tags">
-                    <span>Semantic Article</span>
-                    <span>2-Col Sidebar</span>
+                    <span>2-Column Sidebar</span>
+                    <span>Blockquotes &amp; Code</span>
+                    <span>Article Semantics</span>
                 </div>
-                <div class="card-links">
-                    <a href="./08-blog-page/blog-page.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/08-blog-page" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./08-blog-page/blog-page.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/08-blog-page" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
-            <!-- 09. Breaking News Article -->
-            <div class="card" data-category="ui" data-keywords="news article newspaper editorial mark del ins">
-                <div class="card-badge">HTML & CSS</div>
-                <h2 class="card-title">09. News Article Layout</h2>
-                <p class="card-desc">Newspaper-style editorial page practicing semantic text formatting: highlights (&lt;mark&gt;), edits, and formulas.</p>
+            <!-- 09. News Article -->
+            <article class="project-card" data-title="09 news article newspaper editorial">
+                <div class="card-top">
+                    <span class="project-num">Project 09</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>Breaking News Article</h3>
+                <p>Newspaper-style editorial page with date banners, category tags, &lt;mark&gt; highlights, and scientific formatting (H₂O, E=mc²).</p>
                 <div class="card-tags">
-                    <span>Typography</span>
-                    <span>Text Formatting</span>
+                    <span>Editorial Typography</span>
+                    <span>&lt;mark&gt; &amp; &lt;del&gt;/&lt;ins&gt;</span>
+                    <span>Newspaper Header</span>
                 </div>
-                <div class="card-links">
-                    <a href="./09-news-article/news-article.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/09-news-article" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./09-news-article/news-article.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/09-news-article" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
             <!-- 10. Contact Form -->
-            <div class="card" data-category="forms" data-keywords="contact form input validation optgroup email">
-                <div class="card-badge">Form</div>
-                <h2 class="card-title">10. Contact Us Form</h2>
-                <p class="card-desc">Comprehensive contact form with structured input groups, subject dropdown with &lt;optgroup&gt;, and validation.</p>
+            <article class="project-card" data-title="10 contact form input validation optgroup">
+                <div class="card-top">
+                    <span class="project-num">Project 10</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>Comprehensive Contact Form</h3>
+                <p>Detailed contact form with structured input groups, subject dropdown with &lt;optgroup&gt;, file attachment, and character limits.</p>
                 <div class="card-tags">
-                    <span>Grouped Dropdown</span>
-                    <span>Validation</span>
+                    <span>Input Groups</span>
+                    <span>&lt;optgroup&gt; Dropdown</span>
+                    <span>Form Validation</span>
                 </div>
-                <div class="card-links">
-                    <a href="./10-contact-form/contact-form.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/10-contact-form" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./10-contact-form/contact-form.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/10-contact-form" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
             <!-- 11. Personal Portfolio -->
-            <div class="card" data-category="ui" data-keywords="portfolio developer profile bio avatar skills">
-                <div class="card-badge">HTML & CSS</div>
-                <h2 class="card-title">11. Personal Portfolio</h2>
-                <p class="card-desc">Personal developer portfolio layout with hero avatar introduction, skills table, education history, and contact links.</p>
+            <article class="project-card" data-title="11 personal portfolio developer profile skills">
+                <div class="card-top">
+                    <span class="project-num">Project 11</span>
+                    <span class="pill">HTML &amp; CSS</span>
+                </div>
+                <h3>Personal Portfolio Website</h3>
+                <p>Developer portfolio with top navigation bar, hero introduction with profile picture, technical skills table, and contact buttons.</p>
                 <div class="card-tags">
-                    <span>Portfolio Layout</span>
-                    <span>Skills Table</span>
+                    <span>Hero Section</span>
+                    <span>Skills Matrix</span>
+                    <span>Education Timeline</span>
                 </div>
-                <div class="card-links">
-                    <a href="./11-personal-portfolio/portfolio.html" class="btn btn-primary">Open Demo ↗</a>
-                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/11-personal-portfolio" target="_blank" class="btn btn-secondary">Code</a>
+                <div class="card-actions">
+                    <a href="./11-personal-portfolio/portfolio.html" class="btn-demo">Live Demo ↗</a>
+                    <a href="https://github.com/Muqadas1234/web-dev-html-css-javascript-projects/tree/main/11-personal-portfolio" target="_blank" class="btn-code">Code</a>
                 </div>
-            </div>
+            </article>
 
         </section>
 
-        <!-- Empty Search State -->
-        <div id="noResults" class="empty-state hidden">
-            <p>No projects match your search.</p>
+        <!-- No Results Fallback -->
+        <div id="noResults" class="no-results hidden">
+            <p>No projects match your search query.</p>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <p>© 2026 Muqadas Muhammad Akram — Sukkur IBA University</p>
-            <p><a href="https://github.com/Muqadas1234" target="_blank">github.com/Muqadas1234</a></p>
-        </div>
+    <footer class="hub-footer">
+        <p>© 2026 Muqadas Muhammad Akram · Built with HTML, CSS & JavaScript</p>
     </footer>
 
-    <!-- Simple Filter & Search Script -->
+    <!-- Instant Search Script -->
     <script>
-        const searchInput = document.getElementById("searchInput");
-        const filterBtns = document.querySelectorAll(".filter-btn");
-        const cards = document.querySelectorAll(".card");
+        const searchInput = document.getElementById("projectSearch");
+        const cards = document.querySelectorAll(".project-card");
         const noResults = document.getElementById("noResults");
 
-        let currentFilter = "all";
-
-        function updateList() {
+        searchInput.addEventListener("input", () => {
             const query = searchInput.value.toLowerCase().trim();
             let visibleCount = 0;
 
             cards.forEach(card => {
-                const category = card.dataset.category;
-                const text = (card.dataset.keywords + " " + card.innerText).toLowerCase();
+                const titleData = card.dataset.title.toLowerCase();
+                const cardText = card.textContent.toLowerCase();
 
-                const matchesFilter = (currentFilter === "all") || (category === currentFilter);
-                const matchesSearch = text.includes(query);
-
-                if (matchesFilter && matchesSearch) {
+                if (titleData.includes(query) || cardText.includes(query)) {
                     card.style.display = "flex";
                     visibleCount++;
                 } else {
@@ -299,17 +330,6 @@
             } else {
                 noResults.classList.add("hidden");
             }
-        }
-
-        searchInput.addEventListener("input", updateList);
-
-        filterBtns.forEach(btn => {
-            btn.addEventListener("click", () => {
-                filterBtns.forEach(b => b.classList.remove("active"));
-                btn.classList.add("active");
-                currentFilter = btn.dataset.filter;
-                updateList();
-            });
         });
     </script>
 </body>
