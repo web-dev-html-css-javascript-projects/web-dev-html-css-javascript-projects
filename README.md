@@ -1,5 +1,11 @@
 # Web Development Practice: HTML, CSS & JavaScript Projects
 
+> ### 🌐 **Live Interactive Showcase Hub**
+> ### 🚀 [**https://muqadas-dev.netlify.app**](https://muqadas-dev.netlify.app/)
+> **Click the link above to test and explore all 13 projects live in your browser!**
+
+---
+
 Hi, I'm **Muqadas Muhammad Akram**, a Computer Science graduate from Sukkur IBA University on a journey to become a **Full-Stack AI Product Engineer**. 👋
 
 My ultimate goal is to design and build scalable, intelligent **Full-Stack AI Products**. Although I already had a solid understanding of web technologies during my undergraduate studies, I intentionally chose to revisit, recall, and rebuild every topic hands-on after graduating, because **practical engineering depth and genuine skills matter the most**.
@@ -10,9 +16,9 @@ Every project is organized in its own self-contained folder with source code and
 
 ---
 
-## Projects List
+## 📂 Projects List & Live Links
 
-| # | Project | Stack | Description | Folder |
+| # | Project | Stack | Description | Source Code |
 |---|---|---|---|---|
 | 01 | **Developer Resume** | HTML, CSS | Single-page developer resume with skills, education table, and experience. | [`01-resume/`](./01-resume/) |
 | 02 | **Login Form** | HTML, CSS | Centered login card with input focus states and a "Remember Me" checkbox. | [`02-login-form/`](./02-login-form/) |
@@ -44,5 +50,6 @@ Every project is organized in its own self-contained folder with source code and
 
 - **Muqadas Muhammad Akram**
 - Aspiring Full-Stack AI Product Engineer · CS Graduate @ Sukkur IBA University
+- Live Gallery: [https://muqadas-dev.netlify.app](https://muqadas-dev.netlify.app/)
 - GitHub: [@Muqadas1234](https://github.com/Muqadas1234/web-dev-html-css-javascript-projects)
 - Email: [muqadasakram.13@gmail.com](mailto:muqadasakram.13@gmail.com)
