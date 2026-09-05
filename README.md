@@ -1,10 +1,8 @@
-# Web Development Practice: HTML, CSS & JavaScript Projects
+# Web Development Practice: HTML, CSS & JavaScript
 
-Hi, I'm **Muqadas Muhammad Akram**, a Computer Science student at Sukkur IBA University.
+A collection of **13 frontend projects** built from scratch using **HTML5**, **CSS3**, and **Vanilla JavaScript** to master core web concepts, responsive layouts (Flexbox & Grid), and interactive features.
 
-While preparing for technical interviews and full-stack development, I wanted to ensure my core frontend fundamentals were solid before relying heavily on frameworks. I built these **13 practical projects** from scratch to practice semantic markup, modern CSS layouts (Flexbox & Grid), responsive design, and DOM manipulation with Vanilla JavaScript.
-
-Each project is organized in its own folder with its own code and `README.md`.
+Each project is self-contained in its own folder with source code and documentation.
 
 ---
 
