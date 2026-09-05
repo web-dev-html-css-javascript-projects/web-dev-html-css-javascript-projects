@@ -1,58 +1,46 @@
-# 🚀 Web Development Projects: HTML, CSS & JavaScript
+# Web Development Practice: HTML, CSS & JavaScript Projects
 
-Hi, I'm **Muqadas Muhammad Akram** — a Computer Science student at Sukkur IBA University. 👋
+Hi, I'm **Muqadas Muhammad Akram**, a Computer Science student at Sukkur IBA University.
 
-When preparing for frontend and full-stack technical interviews, I noticed that many developers jump straight into heavy frameworks like React without truly mastering core web fundamentals. I decided to build a solid, production-grade foundation by creating **13 hands-on web projects** from scratch using **Semantic HTML5**, **Modern CSS3 (Flexbox & Grid)**, and **Modern Vanilla JavaScript (ES6)**.
+While preparing for technical interviews and full-stack development, I wanted to ensure my core frontend fundamentals were solid before relying heavily on frameworks. I built these **13 practical projects** from scratch to practice semantic markup, modern CSS layouts (Flexbox & Grid), responsive design, and DOM manipulation with Vanilla JavaScript.
 
-Every project in this repository is self-contained in its own folder with its own code, assets, and detailed documentation (`README.md`).
-
----
-
-## 📂 Projects Showcase & Directory
-
-| # | Project Name | Tech Stack | Description & Highlights | Folder Link |
-|:---|:---|:---|:---|:---|
-| **01** | **Developer Resume** | `HTML5`, `CSS3` | Structured single-page resume with contact links, skill tags, an education table, and experience timeline. | [`./01-resume/`](./01-resume/) |
-| **02** | **Modern Login Form** | `HTML5`, `CSS3` | Centered glassmorphic login card with custom focus glow states, "Remember Me" checkbox, and action buttons. | [`./02-login-form/`](./02-login-form/) |
-| **03** | **User Registration Form** | `HTML5`, `CSS3 (Grid)` | Comprehensive 2-column side-by-side registration layout with fieldsets, file upload, range slider, and custom controls. | [`./03-registration-form/`](./03-registration-form/) |
-| **04** | **E-Commerce Product Card** | `HTML5`, `CSS3` | Product showcase card with sale badges, star rating, discount price tags, key features list, and CTA buttons. | [`./04-product-card/`](./04-product-card/) |
-| **05** | **Pricing Plans Matrix** | `HTML5`, `CSS3` | SaaS-style feature comparison table with highlighted "Popular" tier, check/cross indicators (`✔`/`✘`), and responsive scroll. | [`./05-pricing-table/`](./05-pricing-table/) |
-| **06** | **Interactive FAQ Accordion** | `HTML5`, `CSS3` | Native accordion FAQ page using HTML5 `<details>` and `<summary>` elements with smooth hover and open-state styles. | [`./06-faq-page/`](./06-faq-page/) |
-| **07** | **Restaurant Menu** | `HTML5`, `CSS3` | Food menu card with sticky category navigation (Pizza, Burgers, Drinks, Desserts), price badges, and contact details. | [`./07-restaurant-menu/`](./07-restaurant-menu/) |
-| **08** | **Tech Blog Post** | `HTML5`, `CSS3` | Editorial blog layout featuring a main article with custom blockquotes, inline `<code>` snippets, and a responsive sidebar. | [`./08-blog-page/`](./08-blog-page/) |
-| **09** | **Breaking News Article** | `HTML5`, `CSS3` | Newspaper-style editorial page with date banners, category tags, `<mark>` highlights, and scientific formatting (`<sub>`, `<sup>`). | [`./09-news-article/`](./09-news-article/) |
-| **10** | **Comprehensive Contact Form** | `HTML5`, `CSS3` | Full-featured contact form with structured input groups, subject dropdown with `<optgroup>`, file attachment, and validation. | [`./10-contact-form/`](./10-contact-form/) |
-| **11** | **Personal Portfolio Website** | `HTML5`, `CSS3` | Developer portfolio with top navigation, hero introduction with profile picture, technical skills table, and contact CTA. | [`./11-personal-portfolio/`](./11-personal-portfolio/) |
-| **12** | **TechBite E-Commerce Store** | `HTML5`, `CSS3`, `JS (ES6)` | Full interactive store with dynamic product rendering, live search, category filtering, slide-out cart drawer, and `localStorage`. | [`./12-ecommerce-store/`](./12-ecommerce-store/) |
-| **13** | **TaskFlow Productivity Dashboard** | `HTML5`, `CSS3`, `JS (ES6)` | Complete task manager with full CRUD, Dark/Light mode theme switch, real-time progress calculations, priority tags, and `localStorage`. | [`./13-task-dashboard/`](./13-task-dashboard/) |
+Each project is organized in its own folder with its own code and `README.md`.
 
 ---
 
-## 🛠️ Concepts & Engineering Skills Mastered
+## Projects List
 
-### 🏷️ 1. Semantic HTML5 & Web Accessibility
-- Structured documents using meaningful semantic elements (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`, `<figure>`, `<details>`, `<summary>`).
-- Built accessible forms with proper `<label for="...">` associations, input validation constraints, and grouped controls using `<fieldset>` and `<legend>`.
+| # | Project | Stack | Description | Folder |
+|---|---|---|---|---|
+| 01 | **Developer Resume** | HTML, CSS | Single-page developer resume with skills, education table, and experience. | [`01-resume/`](./01-resume/) |
+| 02 | **Login Form** | HTML, CSS | Centered login card with input focus states and a "Remember Me" checkbox. | [`02-login-form/`](./02-login-form/) |
+| 03 | **Registration Form** | HTML, CSS Grid | 2-column registration form covering text inputs, dates, sliders, and file uploads. | [`03-registration-form/`](./03-registration-form/) |
+| 04 | **Product Card** | HTML, CSS | E-commerce product card with discount tags, star ratings, and CTA buttons. | [`04-product-card/`](./04-product-card/) |
+| 05 | **Pricing Table** | HTML, CSS | Feature comparison pricing table with a highlighted popular plan and horizontal scroll on mobile. | [`05-pricing-table/`](./05-pricing-table/) |
+| 06 | **FAQ Accordion** | HTML, CSS | Native collapsible FAQ accordion using HTML5 `<details>` and `<summary>`. | [`06-faq-page/`](./06-faq-page/) |
+| 07 | **Restaurant Menu** | HTML, CSS | Menu card with category navigation, item descriptions, and price badges. | [`07-restaurant-menu/`](./07-restaurant-menu/) |
+| 08 | **Tech Blog Post** | HTML, CSS | Editorial blog layout with an article section, quote styling, code snippets, and sidebar. | [`08-blog-page/`](./08-blog-page/) |
+| 09 | **News Article** | HTML, CSS | Newspaper-style layout practicing semantic text formatting (`<mark>`, `<del>`, `<ins>`, `<sup>`). | [`09-news-article/`](./09-news-article/) |
+| 10 | **Contact Form** | HTML, CSS | Detailed contact form with input groups, topic dropdowns with `<optgroup>`, and validation. | [`10-contact-form/`](./10-contact-form/) |
+| 11 | **Personal Portfolio** | HTML, CSS | Developer portfolio with intro hero, skills matrix, education history, and contact buttons. | [`11-personal-portfolio/`](./11-personal-portfolio/) |
+| 12 | **E-Commerce Store** | HTML, CSS, JS | Interactive shop with dynamic product rendering, live search, category filters, cart drawer, and `localStorage`. | [`12-ecommerce-store/`](./12-ecommerce-store/) |
+| 13 | **Task & Todo Dashboard** | HTML, CSS, JS | Productivity dashboard with full task CRUD, priority badges, progress bar, dark mode, and `localStorage`. | [`13-task-dashboard/`](./13-task-dashboard/) |
 
-### 🎨 2. Modern CSS3 Layouts & UI Design
-- **Flexbox & CSS Grid:** Created 1D and 2D layouts (side-by-side forms, product matrices, responsive dashboards).
-- **Responsive Web Design:** Fluid media queries (`@media (max-width: 768px)`) ensuring smooth viewing on mobile, tablet, and desktop.
-- **Theme Variables & Transitions:** Custom CSS properties for instant Dark Mode / Light Mode switching and smooth micro-interactions.
+---
 
-### ⚡ 3. Modern Vanilla JavaScript (ES6+)
-- **DOM Manipulation & Events:** Dynamic rendering, real-time input search filtering, modal popups, and slide-out drawers.
-- **State Management & LocalStorage:** Client-side data persistence for shopping carts and task lists across browser refreshes.
-- **Array Methods:** Declarative data operations using `map`, `filter`, `reduce`, `find`, and `unshift`.
+## What I Focused On
+
+- **Semantic HTML:** Using `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, and `<footer>` rather than generic `<div>` tags everywhere.
+- **Form Usability:** Linking labels with inputs, grouping with `<fieldset>`/`<legend>`, and using proper HTML5 validation types.
+- **CSS Layouts:** Using **Flexbox** for one-dimensional components (navbars, cards) and **CSS Grid** for two-dimensional layouts (multi-column forms).
+- **Responsiveness:** Writing clean media queries so each project adapts smoothly across mobile, tablet, and desktop screens.
+- **Vanilla JavaScript:** Practicing event handling, DOM updates, array methods (`map`, `filter`, `reduce`), and browser `localStorage` without external libraries.
 
 ---
 
-## 👤 Author
+## Author
 
-**Muqadas Muhammad Akram**
-* 🎓 Computer Science Student @ **Sukkur IBA University**
-* 💼 Aspiring Full-Stack Developer & AI Engineer
-* 🔗 GitHub: [@Muqadas1234](https://github.com/Muqadas1234)
-* 📧 Email: [muqadasakram.13@gmail.com](mailto:muqadasakram.13@gmail.com)
-
----
-*⭐ If you find this repository helpful, feel free to star it and connect with me!*
+- **Muqadas Muhammad Akram**
+- Computer Science Student @ Sukkur IBA University
+- GitHub: [@Muqadas1234](https://github.com/Muqadas1234)
+- Email: [muqadasakram.13@gmail.com](mailto:muqadasakram.13@gmail.com)

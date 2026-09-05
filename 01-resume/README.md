@@ -1,24 +1,16 @@
-# 📄 01 - Developer Resume Page
+# Developer Resume Page
 
-A structured, responsive single-page developer resume built with clean semantic HTML5 and modern CSS3.
+## Overview
+A clean, single-page resume layout built to practice structured semantic HTML and pure CSS card styling.
 
----
+## What I Practiced
+- Using semantic sections (`<header>`, `<section>`, `<article>`, `<table>`, `<footer>`) instead of generic divs.
+- Table layout for education history and flexbox for skills tags.
+- Responsive container that looks clean on both desktop and mobile screens.
 
-## ✨ Features
-- **Semantic Structure:** Clear separation using `<header>`, `<nav>`, `<section>`, `<article>`, `<table>`, and `<footer>`.
-- **Contact & Social Bar:** Direct links to email, phone, GitHub, and LinkedIn profiles.
-- **Skills Tag Cloud:** Clean horizontal pills showcasing technical capabilities.
-- **Education Table:** Structured matrix for degree, university, and graduation year.
-- **Experience Timeline:** Clean typography hierarchy for work history and internships.
-- **Responsive Card Layout:** Centered container optimized for desktop, tablet, and mobile viewing.
+## Files
+- `resume.html`: Main resume structure.
+- `Resume.css`: Stylesheet.
 
----
-
-## 🛠️ Technologies
-- **HTML5:** Semantic elements, tables, lists, and metadata.
-- **CSS3:** Flexbox, card container shadows, typography scale, and responsive media queries.
-
----
-
-## 🚀 How to Run
-Open `resume.html` in any web browser to view the styled resume.
+## How to View
+Open `resume.html` in any web browser.

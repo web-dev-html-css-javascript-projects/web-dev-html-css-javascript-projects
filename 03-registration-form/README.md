@@ -1,20 +1,16 @@
-# Registration Form
+# User Registration Form
 
-## Objective
-Build a complete HTML5 registration form using semantic HTML and HTML5 validation.
+## Overview
+A detailed 2-column user registration form built to practice complex form controls and CSS Grid alignment.
 
-## Concepts Covered
-- HTML Forms
-- Labels
-- Input Types
-- Fieldset & Legend
-- Select
-- Textarea
-- Radio Buttons
-- Checkboxes
-- File Upload
-- HTML5 Validation
-- Accessibility
+## What I Practiced
+- Two-column responsive layout using CSS Grid (`1fr 1fr` on desktop, single column on mobile).
+- Semantic grouping with `<fieldset>` and `<legend>`.
+- Variety of HTML5 input types: text, email, tel, date, password, range slider, select dropdown, radio buttons, checkboxes, and file upload.
 
-## Status
-🚧 In Progress
+## Files
+- `registration.html`: Registration form markup.
+- `style.css`: Grid styling and responsive form controls.
+
+## How to View
+Open `registration.html` in your browser.

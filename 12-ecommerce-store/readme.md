@@ -1,31 +1,19 @@
-# 🛍️ TechBite - Full-Featured E-Commerce Store
+# TechBite E-Commerce Store
 
-An interactive, responsive E-Commerce web application built from scratch with **HTML5**, **CSS3**, and **Modern Vanilla JavaScript (ES6)**.
-
----
+## Overview
+A full-featured frontend e-commerce store built with HTML, CSS, and Vanilla JavaScript. It includes product browsing, category filtering, search, and a slide-out shopping cart.
 
 ## Features
+- **Dynamic Catalog:** Products loaded and displayed from a JavaScript array.
+- **Search & Filter:** Live search bar and category filter buttons.
+- **Interactive Cart:** Slide-out drawer with quantity controls (`+` / `-`), remove buttons, and automatic subtotal + tax calculations.
+- **LocalStorage:** Cart items stay saved even when refreshing the page.
+- **Checkout Modal:** Order confirmation popup with summary.
 
-- **Dynamic Product Rendering:** Products are injected dynamically from a JavaScript data catalog.
-- **Real-Time Search:** Instant search filter matching product names and categories.
-- **Category Filtering:** Filter products by tags (Audio, Wearables, Laptops, Gaming).
-- **Interactive Cart Drawer:** Slide-out shopping cart with quantity increment/decrement (`+` / `-`) and item removal.
-- **Dynamic Price Calculations:** Live subtotal, 10% tax calculation, and grand total.
-- **LocalStorage Persistence:** Cart contents are saved in the browser's `localStorage` and persist across page refreshes.
-- **Checkout Modal:** Order confirmation popup with an itemized summary.
-- **Fully Responsive Design:** Optimized for mobile, tablet, and desktop screens using CSS Flexbox & Grid.
+## Files
+- `index.html`: Store layout, cart drawer, and checkout modal.
+- `style.css`: Responsive grid, card hover effects, and slide-in animations.
+- `app.js`: Product rendering, cart logic, and localStorage state.
 
----
-
-## Tech Stack
-
-- **HTML5:** Semantic layout (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`).
-- **CSS3:** Custom properties/variables, Flexbox, Grid, transitions, drawer slide animations, and responsive media queries.
-- **JavaScript (Vanilla ES6):** DOM manipulation, event listeners, array methods (`map`, `filter`, `reduce`, `find`), and `localStorage` API.
-
----
-
-## How to Run
-
-1. Open `index.html` directly in any modern web browser (Chrome, Edge, Firefox, Safari).
-2. Search for items, filter categories, and add products to the cart to test full interactivity!
+## How to View
+Open `index.html` in your browser. Try searching, filtering, and adding items to the cart.

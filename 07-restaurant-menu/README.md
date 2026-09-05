@@ -1,59 +1,16 @@
-# Restaurant Menu
+# Restaurant Menu Card
 
-## 📌 Objective
+## Overview
+A restaurant menu layout with category navigation, item descriptions, and price tags.
 
-Build a restaurant menu using semantic HTML5.
+## What I Practiced
+- Category navigation with smooth anchor links (`#pizza`, `#burgers`, etc.).
+- Flexbox alignment for item names and price badges.
+- Warm color palette suited for a food menu card.
 
----
+## Files
+- `restaurant-menu.html`: Menu items and category sections.
+- `style.css`: Menu card layout and styling.
 
-## 📚 Concepts Covered
-
-- Semantic HTML
-- Header
-- Navigation
-- Sections
-- Articles
-- Images
-- Lists
-- Description Lists
-- Links
-- Accessibility
-
----
-
-## 🎯 Learning Outcomes
-
-After completing this task, you will be able to:
-
-- Structure a restaurant menu using semantic HTML.
-- Organize menu categories.
-- Display prices.
-- Use description lists correctly.
-- Build clean and accessible HTML pages.
-
----
-
-## 💡 Interview Questions
-
-- What is a Description List?
-- Difference between `<ul>`, `<ol>`, and `<dl>`?
-- When should `<dl>` be used?
-- Why use semantic HTML?
-
----
-
-## 📁 Files
-
-```text
-07-restaurant-menu/
-│
-├── restaurant-menu.html
-├── README.md
-└── assets/
-```
-
----
-
-## 🚀 Status
-
-🚧 In Progress
+## How to View
+Open `restaurant-menu.html` in your browser.

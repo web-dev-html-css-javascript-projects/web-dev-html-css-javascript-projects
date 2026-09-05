@@ -1,30 +1,19 @@
-# TaskFlow - Smart Productivity & Task Dashboard
+# TaskFlow - Task & Productivity Dashboard
 
-A modern, responsive Task Management and Productivity Dashboard web application built from scratch with **HTML5**, **CSS3**, and **Vanilla JavaScript (ES6)**.
-
----
+## Overview
+A task management dashboard web app built with HTML, CSS, and Vanilla JavaScript. It allows creating, editing, deleting, and tracking tasks with priority levels and a dark mode toggle.
 
 ## Features
+- **Full CRUD:** Add new tasks, edit existing ones, delete, and check off completed tasks.
+- **Live Analytics:** Dynamic counters for Total, Pending, and Completed tasks with a progress percentage bar.
+- **Dark / Light Mode:** Theme switcher with preference saved in `localStorage`.
+- **Search & Filter:** Filter by status (All, Pending, Completed), priority (High, Medium, Low), or search by keyword.
+- **LocalStorage:** All tasks and theme settings persist across browser sessions.
 
-- **Full Task CRUD Operations:** Add new tasks, edit existing task details, delete tasks, and mark them as completed.
-- **Dynamic Analytics & Progress Bar:** Real-time calculation of Total Tasks, Pending, Completed, and a percentage completion rate bar.
-- **Dark Mode / Light Mode:** Instant theme switcher with smooth transition and `localStorage` memory.
-- **Priority & Category Tags:** Color-coded priority badges (🔴 High, 🟡 Medium, 🟢 Low) and category tags (Coding, Work, Study, Personal).
-- **Search & Multi-Filtering:** Instant search filter across titles, descriptions, and categories with status (All/Pending/Done) and priority filters.
-- **LocalStorage Persistence:** All tasks, their status, and the user's selected theme persist across browser refreshes.
-- **Responsive 2-Column Dashboard:** Optimized for desktop, tablet, and mobile displays.
+## Files
+- `index.html`: Dashboard layout, task form, and stats cards.
+- `style.css`: CSS variables for theming, 2-column layout, and task item styles.
+- `app.js`: Task operations, theme switching, progress calculations, and localStorage.
 
----
-
-## Tech Stack
-
-- **HTML5:** Semantic form inputs, progress indicators, status filters, and clean layout cards.
-- **CSS3:** CSS Custom Properties (Variables for theme switching), Flexbox, CSS Grid, animations, and media queries.
-- **JavaScript (Vanilla ES6):** Event-driven DOM manipulation, array CRUD operations (`find`, `filter`, `unshift`), and `localStorage` API.
-
----
-
-## How to Run
-
-1. Open `index.html` directly in any web browser.
-2. Add, edit, check off tasks, and switch between Light/Dark modes to experience the full app!
+## How to View
+Open `index.html` in your browser. Try adding a task, checking it off, and switching to dark mode.
