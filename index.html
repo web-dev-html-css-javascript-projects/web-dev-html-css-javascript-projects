@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muqadas Akram - Web Development Projects</title>
+    <title>Muqadas Akram - Web Development Projects Gallery</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="hub.css">
 </head>
@@ -15,7 +15,7 @@
                 <span class="status-dot"></span>
                 <div>
                     <h1>Muqadas Muhammad Akram</h1>
-                    <p class="subtitle">Computer Science Student @ Sukkur IBA University · Frontend Projects</p>
+                    <p class="subtitle">Computer Science Student @ Sukkur IBA University · Frontend & Full-Stack Projects Hub</p>
                 </div>
             </div>
             <div class="header-links">
@@ -27,22 +27,71 @@
 
     <!-- Main Content Container -->
     <main class="hub-container">
-        <!-- Controls Bar -->
+        <!-- Introduction Banner -->
+        <section class="intro-banner">
+            <h2>🚀 Skills & Fundamentals Practice Hub</h2>
+            <p>
+                These projects were built to develop and sharpen core web development skills from the ground up — mastering semantic HTML5, pure CSS3 responsive layouts (Flexbox & Grid), DOM manipulation, client-side state management, and modern component architecture.
+            </p>
+        </section>
+
+        <!-- Category Filter Tabs & Search Controls -->
         <section class="controls-section">
-            <div class="category-heading">
-                <span class="active-badge">Web Dev: HTML, CSS & JavaScript Projects</span>
-                <span class="count-label">13 Projects</span>
+            <div class="filter-tabs">
+                <button class="tab-btn active" data-category="all">All Projects (15)</button>
+                <button class="tab-btn" data-category="html-css-js">🌐 HTML, CSS &amp; JavaScript (13)</button>
+                <button class="tab-btn" data-category="react">⚛️ React Projects (2)</button>
             </div>
             <div class="search-box">
-                <input type="text" id="projectSearch" placeholder="Filter projects by title or keywords...">
+                <input type="text" id="projectSearch" placeholder="🔍 Search projects or tech stack...">
             </div>
         </section>
 
         <!-- Projects Grid -->
         <section id="projectsGrid" class="projects-grid">
             
+            <!-- React Project 1 (In Progress) -->
+            <article class="project-card" data-category="react" data-title="react ai interview preparation prep platform component vite">
+                <div class="card-top">
+                    <span class="project-num">React Project</span>
+                    <span class="pill pill-react">React.js</span>
+                </div>
+                <h3>AI Interview Preparation Platform</h3>
+                <p>Interactive mock interview simulator built with React components, real-time question generation, voice-to-text recording, and performance feedback scoring.</p>
+                <div class="card-tags">
+                    <span>React.js</span>
+                    <span>Vite</span>
+                    <span>Hooks &amp; State</span>
+                    <span>Tailwind CSS</span>
+                </div>
+                <div class="card-actions">
+                    <span class="badge-status">🚧 In Development</span>
+                    <a href="https://github.com/Muqadas1234" target="_blank" class="btn-code">GitHub ↗</a>
+                </div>
+            </article>
+
+            <!-- React Project 2 (In Progress) -->
+            <article class="project-card" data-category="react" data-title="react full stack ecommerce store redux toolkit api">
+                <div class="card-top">
+                    <span class="project-num">React Project</span>
+                    <span class="pill pill-react">React.js</span>
+                </div>
+                <h3>E-Commerce Web Application (React)</h3>
+                <p>Modern online shopping application built with React, context/state management, product search &amp; filtering, persistent cart, and responsive checkout flow.</p>
+                <div class="card-tags">
+                    <span>React.js</span>
+                    <span>Component Architecture</span>
+                    <span>Context API</span>
+                    <span>REST API</span>
+                </div>
+                <div class="card-actions">
+                    <span class="badge-status">🚧 In Development</span>
+                    <a href="https://github.com/Muqadas1234" target="_blank" class="btn-code">GitHub ↗</a>
+                </div>
+            </article>
+
             <!-- 12. TechBite E-Commerce Store -->
-            <article class="project-card" data-title="12 ecommerce store techbite shopping cart javascript">
+            <article class="project-card" data-category="html-css-js" data-title="12 ecommerce store techbite shopping cart javascript">
                 <div class="card-top">
                     <span class="project-num">Project 12</span>
                     <span class="pill pill-featured">Featured App</span>
@@ -62,7 +111,7 @@
             </article>
 
             <!-- 13. TaskFlow Dashboard -->
-            <article class="project-card" data-title="13 taskflow task dashboard todo app productivity javascript">
+            <article class="project-card" data-category="html-css-js" data-title="13 taskflow task dashboard todo app productivity javascript">
                 <div class="card-top">
                     <span class="project-num">Project 13</span>
                     <span class="pill pill-featured">Featured App</span>
@@ -82,7 +131,7 @@
             </article>
 
             <!-- 01. Resume -->
-            <article class="project-card" data-title="01 developer resume cv profile">
+            <article class="project-card" data-category="html-css-js" data-title="01 developer resume cv profile">
                 <div class="card-top">
                     <span class="project-num">Project 01</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -101,7 +150,7 @@
             </article>
 
             <!-- 02. Login Form -->
-            <article class="project-card" data-title="02 login form authentication card">
+            <article class="project-card" data-category="html-css-js" data-title="02 login form authentication card">
                 <div class="card-top">
                     <span class="project-num">Project 02</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -120,7 +169,7 @@
             </article>
 
             <!-- 03. Registration Form -->
-            <article class="project-card" data-title="03 user registration form signup 2 column grid">
+            <article class="project-card" data-category="html-css-js" data-title="03 user registration form signup 2 column grid">
                 <div class="card-top">
                     <span class="project-num">Project 03</span>
                     <span class="pill">HTML &amp; CSS Grid</span>
@@ -139,7 +188,7 @@
             </article>
 
             <!-- 04. Product Card -->
-            <article class="project-card" data-title="04 ecommerce product card headphones">
+            <article class="project-card" data-category="html-css-js" data-title="04 ecommerce product card headphones">
                 <div class="card-top">
                     <span class="project-num">Project 04</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -158,7 +207,7 @@
             </article>
 
             <!-- 05. Pricing Table -->
-            <article class="project-card" data-title="05 pricing table subscription plans matrix">
+            <article class="project-card" data-category="html-css-js" data-title="05 pricing table subscription plans matrix">
                 <div class="card-top">
                     <span class="project-num">Project 05</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -177,7 +226,7 @@
             </article>
 
             <!-- 06. FAQ Accordion -->
-            <article class="project-card" data-title="06 faq accordion collapsible details summary">
+            <article class="project-card" data-category="html-css-js" data-title="06 faq accordion collapsible details summary">
                 <div class="card-top">
                     <span class="project-num">Project 06</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -196,7 +245,7 @@
             </article>
 
             <!-- 07. Restaurant Menu -->
-            <article class="project-card" data-title="07 restaurant menu food menu card">
+            <article class="project-card" data-category="html-css-js" data-title="07 restaurant menu food menu card">
                 <div class="card-top">
                     <span class="project-num">Project 07</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -215,7 +264,7 @@
             </article>
 
             <!-- 08. Blog Page -->
-            <article class="project-card" data-title="08 tech blog post article sidebar">
+            <article class="project-card" data-category="html-css-js" data-title="08 tech blog post article sidebar">
                 <div class="card-top">
                     <span class="project-num">Project 08</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -234,7 +283,7 @@
             </article>
 
             <!-- 09. News Article -->
-            <article class="project-card" data-title="09 news article newspaper editorial">
+            <article class="project-card" data-category="html-css-js" data-title="09 news article newspaper editorial">
                 <div class="card-top">
                     <span class="project-num">Project 09</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -253,7 +302,7 @@
             </article>
 
             <!-- 10. Contact Form -->
-            <article class="project-card" data-title="10 contact form input validation optgroup">
+            <article class="project-card" data-category="html-css-js" data-title="10 contact form input validation optgroup">
                 <div class="card-top">
                     <span class="project-num">Project 10</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -272,7 +321,7 @@
             </article>
 
             <!-- 11. Personal Portfolio -->
-            <article class="project-card" data-title="11 personal portfolio developer profile skills">
+            <article class="project-card" data-category="html-css-js" data-title="11 personal portfolio developer profile skills">
                 <div class="card-top">
                     <span class="project-num">Project 11</span>
                     <span class="pill">HTML &amp; CSS</span>
@@ -294,30 +343,37 @@
 
         <!-- No Results Fallback -->
         <div id="noResults" class="no-results hidden">
-            <p>No projects match your search query.</p>
+            <p>No projects match your current category or search query.</p>
         </div>
     </main>
 
     <!-- Footer -->
     <footer class="hub-footer">
-        <p>© 2026 Muqadas Muhammad Akram · Built with HTML, CSS & JavaScript</p>
+        <p>© 2026 Muqadas Muhammad Akram · Built to practice Web Development &amp; Software Engineering</p>
     </footer>
 
-    <!-- Instant Search Script -->
+    <!-- Interactive Filtering Script -->
     <script>
         const searchInput = document.getElementById("projectSearch");
+        const tabBtns = document.querySelectorAll(".tab-btn");
         const cards = document.querySelectorAll(".project-card");
         const noResults = document.getElementById("noResults");
 
-        searchInput.addEventListener("input", () => {
+        let currentCategory = "all";
+
+        function filterProjects() {
             const query = searchInput.value.toLowerCase().trim();
             let visibleCount = 0;
 
             cards.forEach(card => {
+                const category = card.dataset.category;
                 const titleData = card.dataset.title.toLowerCase();
                 const cardText = card.textContent.toLowerCase();
 
-                if (titleData.includes(query) || cardText.includes(query)) {
+                const matchesCategory = (currentCategory === "all") || (category === currentCategory);
+                const matchesSearch = titleData.includes(query) || cardText.includes(query);
+
+                if (matchesCategory && matchesSearch) {
                     card.style.display = "flex";
                     visibleCount++;
                 } else {
@@ -330,6 +386,17 @@
             } else {
                 noResults.classList.add("hidden");
             }
+        }
+
+        searchInput.addEventListener("input", filterProjects);
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                tabBtns.forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+                currentCategory = btn.dataset.category;
+                filterProjects();
+            });
         });
     </script>
 </body>

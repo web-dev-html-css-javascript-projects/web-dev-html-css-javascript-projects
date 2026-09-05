@@ -30,9 +30,9 @@ body {
 
 /* --- Header --- */
 .hub-header {
-    background-color: #0f172a; /* Deep Charcoal */
+    background-color: #0f172a;
     color: #ffffff;
-    padding: 28px 24px;
+    padding: 26px 24px;
     border-bottom: 1px solid #1e293b;
 }
 
@@ -55,21 +55,21 @@ body {
 .status-dot {
     width: 10px;
     height: 10px;
-    background-color: #10b981; /* Emerald green online indicator */
+    background-color: #10b981;
     border-radius: 50%;
     box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
     flex-shrink: 0;
 }
 
 .brand h1 {
-    font-size: 1.45rem;
+    font-size: 1.4rem;
     font-weight: 700;
     letter-spacing: -0.02em;
     color: #ffffff;
 }
 
 .subtitle {
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     color: #94a3b8;
     margin-top: 2px;
 }
@@ -110,64 +110,89 @@ body {
 /* --- Main Layout --- */
 .hub-container {
     max-width: 1200px;
-    margin: 32px auto;
+    margin: 28px auto;
     padding: 0 24px;
     flex-grow: 1;
     width: 100%;
 }
 
-/* --- Controls Bar --- */
+/* --- Intro Banner --- */
+.intro-banner {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-left: 4px solid #0f172a;
+    border-radius: 10px;
+    padding: 24px 26px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
+}
+
+.intro-banner h2 {
+    font-size: 1.2rem;
+    color: #0f172a;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.intro-banner p {
+    font-size: 0.92rem;
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* --- Controls Section --- */
 .controls-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    margin-bottom: 28px;
+    margin-bottom: 26px;
     flex-wrap: wrap;
-    background-color: #ffffff;
-    padding: 16px 20px;
-    border-radius: 10px;
-    border: 1px solid var(--border-color);
 }
 
-.category-heading {
+.filter-tabs {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    gap: 8px;
     flex-wrap: wrap;
 }
 
-.active-badge {
-    font-size: 0.92rem;
-    font-weight: 700;
+.tab-btn {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.tab-btn:hover {
+    background-color: #f1f5f9;
     color: #0f172a;
 }
 
-.count-label {
-    font-size: 0.78rem;
-    font-weight: 600;
-    background-color: #f1f5f9;
-    color: #475569;
-    padding: 3px 9px;
-    border-radius: 12px;
-    border: 1px solid #e2e8f0;
+.tab-btn.active {
+    background-color: #0f172a;
+    color: #ffffff;
+    border-color: #0f172a;
 }
 
 .search-box input {
     padding: 9px 16px;
     border-radius: 8px;
     border: 1px solid var(--border-color);
-    background-color: #f8fafc;
+    background-color: #ffffff;
     color: var(--text-main);
-    font-size: 0.9rem;
-    width: 300px;
+    font-size: 0.88rem;
+    width: 280px;
     outline: none;
     transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .search-box input:focus {
     border-color: #64748b;
-    background-color: #ffffff;
     box-shadow: 0 0 0 3px rgba(100, 116, 139, 0.1);
 }
 
@@ -225,6 +250,12 @@ body {
     border: 1px solid #fde68a;
 }
 
+.pill-react {
+    background-color: #e0f2fe;
+    color: #0369a1;
+    border: 1px solid #bae6fd;
+}
+
 .project-card h3 {
     font-size: 1.15rem;
     font-weight: 700;
@@ -260,8 +291,21 @@ body {
 .card-actions {
     display: flex;
     gap: 8px;
+    align-items: center;
     border-top: 1px solid #f1f5f9;
     padding-top: 14px;
+}
+
+.badge-status {
+    flex: 2;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #b45309;
+    background-color: #fef3c7;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px dashed #f59e0b;
 }
 
 .btn-demo {
