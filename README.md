@@ -1,8 +1,10 @@
 # Web Development Practice: HTML, CSS & JavaScript Projects
 
-Hi, I'm **Muqadas Muhammad Akram** — an aspiring **Full-Stack AI Product Engineer** and Computer Science graduate from Sukkur IBA University. 👋
+Hi, I'm **Muqadas Muhammad Akram** — a Computer Science graduate from Sukkur IBA University on a journey to become a **Full-Stack AI Product Engineer**. 👋
 
-After completing my undergraduate studies, I decided to revisit, reinforce, and practically apply the web engineering concepts I studied throughout my degree. To build a strong foundation before advancing into modern frameworks and AI-integrated products, I built these **13 hands-on projects** from scratch using **Semantic HTML5**, **Modern CSS3 (Flexbox & Grid)**, and **Vanilla JavaScript (ES6)**.
+My ultimate goal is to design and build scalable, intelligent **Full-Stack AI Products**. Although I already had a solid understanding of web technologies during my undergraduate studies, I intentionally chose to revisit, recall, and rebuild every topic hands-on after graduating — because **practical engineering depth and genuine skills matter the most**.
+
+This repository documents that solid foundation: **13 practical web projects** built from the ground up using **Semantic HTML5**, **Modern CSS3 (Flexbox & Grid)**, and **Modern Vanilla JavaScript (ES6)** before advancing into modern frameworks like React, backend architecture, and AI product integration.
 
 Every project is organized in its own self-contained folder with source code and documentation.
 
